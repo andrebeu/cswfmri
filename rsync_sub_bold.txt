@@ -1,0 +1,6 @@
+rsync --dry-run -r -vam --include="*/" --include="*bold.nii.gz" --exclude="*" abeukers@scotty.princeton.edu:/jukebox/norman/scollin/schema/data/bids/Norman/Silvy/schema/sub-13?/ses-02/ . 
+
+rsync -r -vam abeukers@scotty.princeton.edu:/jukebox/norman/scollin/schema/data/extra/rois/*.nii . 
+
+rsync -r -vam --include="*/" --include="*space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz" --exclude="*" abeukers@scotty.princeton.edu:/jukebox/norman/scollin/schema/data/bids/Norman/Silvy/schema/derivatives/fmriprep/sub-13?/ses-02/func/ . 
+
