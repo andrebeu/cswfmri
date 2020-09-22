@@ -12,6 +12,7 @@ from nilearn import image, plotting, input_data
 from scipy.spatial import distance
 
 SUB_NS = np.arange(30,39)
+N_WEDDINGS = 12
 ROI_NAME_L = [
   'rsherlockAvg_fc_thr5_rTPJ','rsherlockAvg_fc_thr5_pmc',
   'rsherlockAvg_fc_thr5_rSFG','rsherlockAvg_fc_thr5_lSFG',
