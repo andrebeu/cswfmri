@@ -11,12 +11,13 @@ import nilearn as nl
 from nilearn import image, plotting, input_data
 from scipy.spatial import distance
 
-# rm sub_ns = [2,11,39]
+# rm sub_ns = [2,11,37,39]
 ALL_SUB_NS = [3,4,5,6,7,8,9,10,12,13,14,15,17,18,19,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,38,40,41,42,43,44]
-SUB_NS = np.arange(30,39)
+SUB_NS = np.arange(30,36)
 WED_L = ['W1', 'W2', 'W6', 'W17', 'W19', 'W20', 'W22', 'W23', 'W28', 'W29', 'W34', 'W38']
 N_WEDDINGS = 12
 ROI_NAME_L = [
+  'rglasser_PM_net',
   'rsherlockAvg_fc_thr5_pmc',
   'rsherlockAvg_fc_thr5_mpfc',
   'rsherlockAvg_fc_thr5_lTPJ',
