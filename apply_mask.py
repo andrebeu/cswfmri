@@ -17,8 +17,10 @@ for sub_n in SUB_NS:
     sub4d = load_sub4d(sub_n,task=task,max_len=2000,numpy_output=False)
     for roi_name in ROI_NAME_L:
       print('roi=',roi_name)
-      # load mask
-      roi_img = nl.image.load_img("fmri_data/rois/%s.nii"%roi_name)
+      # load & threshold mask
+      roi_img = nl.image.threshold_img(
+        nl.image.load_img("fmri_data/rois/%s.nii"%roi_name
+          ),0.5)
       # plt masks
       plt.figure(figsize=(3,8))
       nl.plotting.plot_glass_brain(roi_img)
