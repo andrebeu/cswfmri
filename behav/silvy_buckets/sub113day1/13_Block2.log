@@ -1,0 +1,1380 @@
+1.8221 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+4.4428 	WARNING 	User requested fullscreen with size [2560 1440], but screen is actually [1920, 1080]. Using actual size
+5.0688 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x131e1ed128>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x131feb2c50>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.0689 	EXP 	window1: recordFrameIntervals = False
+5.2348 	EXP 	window1: recordFrameIntervals = True
+5.4183 	EXP 	window1: recordFrameIntervals = False
+5.5405 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='waiting for experimenter...', units='norm', win=Window(...), wrapWidth=1)
+5.5492 	EXP 	Created waiting = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='waiting', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='waiting for scanner...', units='norm', win=Window(...), wrapWidth=1)
+5.5733 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='north.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.5836 	EXP 	Created l2q = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='LAYER2Q.png', interpolate=True, mask=None, maskParams=None, name='l2q', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.5938 	EXP 	Created l3q = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='LAYER3Q.png', interpolate=True, mask=None, maskParams=None, name='l3q', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.5996 	EXP 	Created nameQ1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='nameQ1', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6020 	EXP 	Created nameQ2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='nameQ2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6044 	EXP 	Created eggPainting1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='eggPainting1', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.7, 1. ]), texRes=128, units='norm', win=Window(...))
+5.6068 	EXP 	Created eggPainting2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='eggPainting2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.7, 1. ]), texRes=128, units='norm', win=Window(...))
+5.6091 	EXP 	Created character1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='character1', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.5, 1. ]), texRes=128, units='norm', win=Window(...))
+5.6115 	EXP 	Created character2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='character2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.5, 1. ]), texRes=128, units='norm', win=Window(...))
+5.6139 	EXP 	Created themeQ1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='themeQ1', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6162 	EXP 	Created themeQ2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='themeQ2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6186 	EXP 	Created gift1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='gift1', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6210 	EXP 	Created gift2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='gift2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6245 	EXP 	Created northorsouth1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='northorsouth1.png', interpolate=True, mask=None, maskParams=None, name='northorsouth1', opacity=1.0, ori=0.0, pos=array([-0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6278 	EXP 	Created northorsouth2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='northorsouth2.png', interpolate=True, mask=None, maskParams=None, name='northorsouth2', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+5.6513 	EXP 	text: autoDraw = True
+6.2216 	DATA 	Keypress: g
+6.2347 	EXP 	text: autoDraw = False
+6.2347 	EXP 	waiting: autoDraw = True
+25.3700 	DATA 	Keypress: equal
+25.3821 	EXP 	Imported chooseBlock2.csv as conditions, 6 conditions, 1 params
+25.3825 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+25.3830 	EXP 	New trial (rep=0, index=0): OrderedDict([('condsFile', 'videoBlock_schemaN_pathA_4.csv')])
+25.3924 	EXP 	Imported videoBlock_schemaN_pathA_4.csv as conditions, 1 conditions, 17 params
+25.3928 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+25.3934 	EXP 	New trial (rep=0, index=0): OrderedDict([('northOrSouth', 'north.png'), ('stimFile1a', 'stims/wedding-13.1a.mp4'), ('stimFile1b', 'stims/wedding-13.1b.mp4'), ('stimFile2', 'stims/wedding-13.2a.mp4'), ('stimFile3', 'stims/wedding-13.3a.mp4'), ('stimFile4', 'stims/wedding-13.4a.mp4'), ('stimFile5', 'stims/wedding-13.5.mp4'), ('QeggPainting1', 'stimsday1details/egg13.png'), ('Qcharacter1', 'stimsday1details/couple13.png'), ('Qgift1', 'stimsday1details/new4.png'), ('QeggPainting2', 'stimsday1details/newegg4.png'), ('Qcharacter2', 'stimsday1details/newperson4.png'), ('Qgift2', 'stimsday1details/gift13.png'), ('Qname1', 'stimsday1details/n13.png'), ('Qtheme1', 'stimsday1details/ct13.png'), ('Qname2', 'stimsday1details/cn13.png'), ('Qtheme2', 'stimsday1details/t13.png')])
+25.4050 	EXP 	waiting: autoDraw = False
+25.4050 	EXP 	image_3: autoDraw = True
+26.8700 	DATA 	Keypress: equal
+27.3854 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+27.3856 	EXP 	New trial (rep=0, index=0): None
+27.8957 	EXP 	Created vid1a = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-13.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+28.2328 	EXP 	Created vid1b = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-13.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+28.7158 	EXP 	Created vid2 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-13.2a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+29.1786 	EXP 	Created vid3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='stims/wedding-13.3a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+29.6621 	EXP 	Created vid4 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-13.4a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+30.0640 	EXP 	Created vid5 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-6.0, filename='stims/wedding-13.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+30.1053 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+30.1057 	EXP 	New trial (rep=0, index=0): None
+30.5078 	EXP 	Created vid1a_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-13.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+30.8386 	EXP 	Created vid1b_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-13.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+31.3052 	EXP 	Created vid2_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-13.2a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+31.7705 	EXP 	Created vid3_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-13.3a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+32.2511 	EXP 	Created vid4_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-7.0, filename='stims/wedding-13.4a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+32.6342 	EXP 	Created vid5_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-8.0, filename='stims/wedding-13.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+32.6352 	EXP 	window1: recordFrameIntervals = False
+32.6392 	DATA 	Keypress: equal
+32.6416 	DATA 	Keypress: equal
+32.6443 	DATA 	Keypress: equal
+32.6560 	EXP 	image_3: autoDraw = False
+32.6560 	EXP 	vid1a: movie = 'stims/wedding-13.1a.mp4'
+32.6560 	EXP 	vid1a: autoLog = True
+32.6560 	EXP 	vid1b: movie = 'stims/wedding-13.1b.mp4'
+32.6560 	EXP 	vid1b: autoLog = True
+32.6560 	EXP 	vid2: movie = 'stims/wedding-13.2a.mp4'
+32.6560 	EXP 	vid2: autoLog = True
+32.6560 	EXP 	vid3: movie = 'stims/wedding-13.3a.mp4'
+32.6560 	EXP 	vid3: autoLog = True
+32.6560 	EXP 	vid4: movie = 'stims/wedding-13.4a.mp4'
+32.6560 	EXP 	vid4: autoLog = True
+32.6560 	EXP 	vid5: movie = 'stims/wedding-13.5.mp4'
+32.6560 	EXP 	vid5: autoLog = True
+32.6560 	EXP 	vid1a: autoDraw = False
+32.6560 	EXP 	vid1b: autoDraw = False
+32.6560 	EXP 	vid2: autoDraw = False
+32.6560 	EXP 	vid3: autoDraw = False
+32.6560 	EXP 	vid4: autoDraw = False
+32.6560 	EXP 	vid5: autoDraw = False
+32.6560 	EXP 	vid1a_q: movie = 'stims/wedding-13.1a.mp4'
+32.6560 	EXP 	vid1a_q: autoLog = True
+32.6560 	EXP 	vid1b_q: movie = 'stims/wedding-13.1b.mp4'
+32.6560 	EXP 	vid1b_q: autoLog = True
+32.6560 	EXP 	vid2_q: movie = 'stims/wedding-13.2a.mp4'
+32.6560 	EXP 	vid2_q: autoLog = True
+32.6560 	EXP 	vid3_q: movie = 'stims/wedding-13.3a.mp4'
+32.6560 	EXP 	vid3_q: autoLog = True
+32.6560 	EXP 	vid4_q: movie = 'stims/wedding-13.4a.mp4'
+32.6560 	EXP 	vid4_q: autoLog = True
+32.6560 	EXP 	vid5_q: movie = 'stims/wedding-13.5.mp4'
+32.6560 	EXP 	vid5_q: autoLog = True
+35.1910 	EXP 	window1: recordFrameIntervals = False
+37.4236 	DATA 	Keypress: equal
+37.4261 	DATA 	Keypress: equal
+37.4281 	DATA 	Keypress: equal
+37.4302 	DATA 	Keypress: equal
+37.6344 	EXP 	vid1a_q: movie = 'stims/wedding-13.1a.mp4'
+37.6344 	EXP 	vid1b_q: movie = 'stims/wedding-13.1b.mp4'
+37.6344 	EXP 	vid2_q: movie = 'stims/wedding-13.2a.mp4'
+37.6344 	EXP 	vid3_q: movie = 'stims/wedding-13.3a.mp4'
+37.6344 	EXP 	vid4_q: movie = 'stims/wedding-13.4a.mp4'
+37.6344 	EXP 	vid5_q: movie = 'stims/wedding-13.5.mp4'
+37.6513 	EXP 	vid1a_q: autoDraw = True
+38.8698 	DATA 	Keypress: equal
+40.3697 	DATA 	Keypress: equal
+41.8696 	DATA 	Keypress: equal
+43.3698 	DATA 	Keypress: equal
+44.8696 	DATA 	Keypress: equal
+46.3696 	DATA 	Keypress: equal
+47.8696 	DATA 	Keypress: equal
+49.3694 	DATA 	Keypress: equal
+50.8697 	DATA 	Keypress: equal
+52.3695 	DATA 	Keypress: equal
+52.7008 	EXP 	Set vid1a_q finished
+53.8694 	DATA 	Keypress: equal
+54.1341 	EXP 	vid1b_q: autoDraw = True
+55.3693 	DATA 	Keypress: equal
+56.8696 	DATA 	Keypress: equal
+58.3693 	DATA 	Keypress: equal
+59.8692 	DATA 	Keypress: equal
+61.3695 	DATA 	Keypress: equal
+62.2006 	EXP 	Set vid1b_q finished
+62.8693 	DATA 	Keypress: equal
+63.1340 	EXP 	vid2_q: autoDraw = True
+64.3694 	DATA 	Keypress: equal
+65.8692 	DATA 	Keypress: equal
+67.3693 	DATA 	Keypress: equal
+68.8691 	DATA 	Keypress: equal
+70.3692 	DATA 	Keypress: equal
+71.8693 	DATA 	Keypress: equal
+73.3692 	DATA 	Keypress: equal
+74.8692 	DATA 	Keypress: equal
+76.3694 	DATA 	Keypress: equal
+77.8690 	DATA 	Keypress: equal
+79.3692 	DATA 	Keypress: equal
+80.1171 	EXP 	vid2_q: autoDraw = False
+80.1338 	EXP 	l2q: autoDraw = True
+80.8689 	DATA 	Keypress: equal
+82.0859 	DATA 	Keypress: 1
+82.3685 	DATA 	Keypress: equal
+83.8689 	DATA 	Keypress: equal
+84.1171 	EXP 	l2q: autoDraw = False
+84.1337 	EXP 	vid3_q: autoDraw = True
+85.3691 	DATA 	Keypress: equal
+86.8690 	DATA 	Keypress: equal
+88.3689 	DATA 	Keypress: equal
+89.8689 	DATA 	Keypress: equal
+91.3691 	DATA 	Keypress: equal
+92.8691 	DATA 	Keypress: equal
+94.3691 	DATA 	Keypress: equal
+95.8693 	DATA 	Keypress: equal
+97.3689 	DATA 	Keypress: equal
+98.8692 	DATA 	Keypress: equal
+100.3691 	DATA 	Keypress: equal
+101.8870 	DATA 	Keypress: equal
+103.3687 	DATA 	Keypress: equal
+104.8689 	DATA 	Keypress: equal
+106.3690 	DATA 	Keypress: equal
+107.1168 	EXP 	vid3_q: autoDraw = False
+107.1334 	EXP 	l3q: autoDraw = True
+107.8686 	DATA 	Keypress: equal
+108.5185 	DATA 	Keypress: 1
+109.3681 	DATA 	Keypress: equal
+110.8684 	DATA 	Keypress: equal
+111.1167 	EXP 	l3q: autoDraw = False
+111.1333 	EXP 	vid4_q: autoDraw = True
+112.3686 	DATA 	Keypress: equal
+113.8685 	DATA 	Keypress: equal
+115.3688 	DATA 	Keypress: equal
+116.8686 	DATA 	Keypress: equal
+118.3966 	DATA 	Keypress: equal
+119.8688 	DATA 	Keypress: equal
+121.3685 	DATA 	Keypress: equal
+122.8687 	DATA 	Keypress: equal
+124.3688 	DATA 	Keypress: equal
+125.8685 	DATA 	Keypress: equal
+127.3688 	DATA 	Keypress: equal
+128.8686 	DATA 	Keypress: equal
+130.3685 	DATA 	Keypress: equal
+131.8684 	DATA 	Keypress: equal
+133.3683 	DATA 	Keypress: equal
+134.8687 	DATA 	Keypress: equal
+135.1164 	EXP 	vid4_q: autoDraw = False
+135.1330 	EXP 	vid5_q: autoDraw = True
+136.3684 	DATA 	Keypress: equal
+137.8683 	DATA 	Keypress: equal
+139.3683 	DATA 	Keypress: equal
+140.8683 	DATA 	Keypress: equal
+142.3681 	DATA 	Keypress: equal
+143.8682 	DATA 	Keypress: equal
+145.3683 	DATA 	Keypress: equal
+146.8683 	DATA 	Keypress: equal
+147.1829 	EXP 	Set vid5_q finished
+147.3065 	EXP 	window1: recordFrameIntervals = False
+147.3163 	EXP 	vid1a_q: autoDraw = False
+147.3163 	EXP 	vid1b_q: autoDraw = False
+147.3163 	EXP 	vid2_q: autoDraw = False
+147.3163 	EXP 	l2q: autoDraw = False
+147.3163 	EXP 	vid3_q: autoDraw = False
+147.3163 	EXP 	l3q: autoDraw = False
+147.3163 	EXP 	vid4_q: autoDraw = False
+147.3163 	EXP 	vid5_q: autoDraw = False
+147.5376 	EXP 	window1: recordFrameIntervals = False
+149.0929 	DATA 	Keypress: equal
+149.3162 	EXP 	eggPainting1: image = 'stimsday1details/egg13.png'
+149.3162 	EXP 	eggPainting2: image = 'stimsday1details/newegg4.png'
+149.3162 	EXP 	character1: image = 'stimsday1details/couple13.png'
+149.3162 	EXP 	character2: image = 'stimsday1details/newperson4.png'
+149.3162 	EXP 	gift1: image = 'stimsday1details/new4.png'
+149.3162 	EXP 	gift2: image = 'stimsday1details/gift13.png'
+149.3162 	EXP 	themeQ1: image = 'stimsday1details/ct13.png'
+149.3162 	EXP 	themeQ2: image = 'stimsday1details/t13.png'
+149.3162 	EXP 	nameQ1: image = 'stimsday1details/n13.png'
+149.3162 	EXP 	nameQ2: image = 'stimsday1details/cn13.png'
+149.3162 	EXP 	nameQ1: autoDraw = True
+149.3162 	EXP 	nameQ2: autoDraw = True
+149.8681 	DATA 	Keypress: equal
+150.3176 	DATA 	Keypress: 1
+151.2996 	EXP 	nameQ1: autoDraw = False
+151.2996 	EXP 	nameQ2: autoDraw = False
+151.2996 	EXP 	nameQ1: autoDraw = False
+151.2996 	EXP 	nameQ2: autoDraw = False
+151.2996 	EXP 	eggPainting1: autoDraw = True
+151.2996 	EXP 	eggPainting2: autoDraw = True
+151.3678 	DATA 	Keypress: equal
+151.9677 	DATA 	Keypress: 1
+152.8680 	DATA 	Keypress: equal
+153.2995 	EXP 	eggPainting1: autoDraw = False
+153.2995 	EXP 	eggPainting2: autoDraw = False
+153.2995 	EXP 	eggPainting1: autoDraw = False
+153.2995 	EXP 	eggPainting2: autoDraw = False
+153.2995 	EXP 	character1: autoDraw = True
+153.2995 	EXP 	character2: autoDraw = True
+154.1509 	DATA 	Keypress: 1
+154.3676 	DATA 	Keypress: equal
+154.7844 	DATA 	Keypress: 2
+155.2995 	EXP 	character1: autoDraw = False
+155.2995 	EXP 	character2: autoDraw = False
+155.2995 	EXP 	character1: autoDraw = False
+155.2995 	EXP 	character2: autoDraw = False
+155.2995 	EXP 	themeQ1: autoDraw = True
+155.2995 	EXP 	themeQ2: autoDraw = True
+155.8676 	DATA 	Keypress: equal
+156.4509 	DATA 	Keypress: 2
+157.2995 	EXP 	themeQ1: autoDraw = False
+157.2995 	EXP 	themeQ2: autoDraw = False
+157.2995 	EXP 	themeQ1: autoDraw = False
+157.2995 	EXP 	themeQ2: autoDraw = False
+157.2995 	EXP 	gift1: autoDraw = True
+157.2995 	EXP 	gift2: autoDraw = True
+157.3676 	DATA 	Keypress: equal
+158.1675 	DATA 	Keypress: 2
+158.8675 	DATA 	Keypress: equal
+159.2994 	EXP 	gift1: autoDraw = False
+159.2994 	EXP 	gift2: autoDraw = False
+159.2994 	EXP 	gift1: autoDraw = False
+159.2994 	EXP 	gift2: autoDraw = False
+159.2994 	EXP 	northorsouth1: autoDraw = True
+159.2994 	EXP 	northorsouth2: autoDraw = True
+160.2011 	DATA 	Keypress: 1
+160.3675 	DATA 	Keypress: equal
+161.4600 	EXP 	New trial (rep=0, index=1): OrderedDict([('condsFile', 'videoBlock_schemaN_pathA_5.csv')])
+161.4726 	EXP 	Imported videoBlock_schemaN_pathA_5.csv as conditions, 1 conditions, 17 params
+161.4730 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+161.4738 	EXP 	New trial (rep=0, index=0): OrderedDict([('northOrSouth', 'north.png'), ('stimFile1a', 'stims/wedding-15.1a.mp4'), ('stimFile1b', 'stims/wedding-15.1b.mp4'), ('stimFile2', 'stims/wedding-15.2a.mp4'), ('stimFile3', 'stims/wedding-15.3a.mp4'), ('stimFile4', 'stims/wedding-15.4a.mp4'), ('stimFile5', 'stims/wedding-15.5.mp4'), ('QeggPainting1', 'stimsday1details/egg15.png'), ('Qcharacter1', 'stimsday1details/couple15.png'), ('Qgift1', 'stimsday1details/gift15.png'), ('QeggPainting2', 'stimsday1details/newegg5.png'), ('Qcharacter2', 'stimsday1details/newperson5.png'), ('Qgift2', 'stimsday1details/new5.png'), ('Qname1', 'stimsday1details/n15.png'), ('Qtheme1', 'stimsday1details/t15.png'), ('Qname2', 'stimsday1details/cn15.png'), ('Qtheme2', 'stimsday1details/ct15.png')])
+161.4827 	EXP 	northorsouth1: autoDraw = False
+161.4827 	EXP 	northorsouth2: autoDraw = False
+161.4827 	EXP 	northorsouth1: autoDraw = False
+161.4827 	EXP 	northorsouth2: autoDraw = False
+161.4827 	EXP 	image_3: autoDraw = True
+161.8680 	DATA 	Keypress: equal
+163.3679 	DATA 	Keypress: equal
+163.4673 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+163.4676 	EXP 	New trial (rep=0, index=0): None
+163.9127 	EXP 	Created vid1a = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-15.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+164.3192 	EXP 	Created vid1b = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-15.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+164.8315 	EXP 	Created vid2 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-15.2a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+165.3078 	EXP 	Created vid3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='stims/wedding-15.3a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+165.9060 	EXP 	Created vid4 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-15.4a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+166.3494 	EXP 	Created vid5 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-6.0, filename='stims/wedding-15.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+166.4691 	EXP 	window1: recordFrameIntervals = False
+166.4728 	DATA 	Keypress: equal
+166.4756 	DATA 	Keypress: equal
+166.4867 	EXP 	image_3: autoDraw = False
+166.4867 	EXP 	image_3: autoDraw = False
+166.4867 	EXP 	vid1a: movie = 'stims/wedding-15.1a.mp4'
+166.4867 	EXP 	vid1a: autoLog = True
+166.4867 	EXP 	vid1b: movie = 'stims/wedding-15.1b.mp4'
+166.4867 	EXP 	vid1b: autoLog = True
+166.4867 	EXP 	vid2: movie = 'stims/wedding-15.2a.mp4'
+166.4867 	EXP 	vid2: autoLog = True
+166.4867 	EXP 	vid3: movie = 'stims/wedding-15.3a.mp4'
+166.4867 	EXP 	vid3: autoLog = True
+166.4867 	EXP 	vid4: movie = 'stims/wedding-15.4a.mp4'
+166.4867 	EXP 	vid4: autoLog = True
+166.4867 	EXP 	vid5: movie = 'stims/wedding-15.5.mp4'
+166.4867 	EXP 	vid5: autoLog = True
+169.1779 	EXP 	window1: recordFrameIntervals = False
+171.2568 	DATA 	Keypress: equal
+171.2590 	DATA 	Keypress: equal
+171.2610 	DATA 	Keypress: equal
+171.4660 	EXP 	vid1a: movie = 'stims/wedding-15.1a.mp4'
+171.4660 	EXP 	vid1b: movie = 'stims/wedding-15.1b.mp4'
+171.4660 	EXP 	vid2: movie = 'stims/wedding-15.2a.mp4'
+171.4660 	EXP 	vid3: movie = 'stims/wedding-15.3a.mp4'
+171.4660 	EXP 	vid4: movie = 'stims/wedding-15.4a.mp4'
+171.4660 	EXP 	vid5: movie = 'stims/wedding-15.5.mp4'
+171.4855 	EXP 	vid1a: autoDraw = True
+172.3682 	DATA 	Keypress: equal
+173.8679 	DATA 	Keypress: equal
+175.3681 	DATA 	Keypress: equal
+176.8679 	DATA 	Keypress: equal
+178.3678 	DATA 	Keypress: equal
+179.8682 	DATA 	Keypress: equal
+181.3678 	DATA 	Keypress: equal
+182.8678 	DATA 	Keypress: equal
+184.3678 	DATA 	Keypress: equal
+185.8679 	DATA 	Keypress: equal
+187.3679 	DATA 	Keypress: equal
+187.4824 	EXP 	vid1a: autoDraw = False
+187.4991 	EXP 	vid1b: autoDraw = True
+188.8678 	DATA 	Keypress: equal
+190.3679 	DATA 	Keypress: equal
+191.8675 	DATA 	Keypress: equal
+193.3678 	DATA 	Keypress: equal
+194.8675 	DATA 	Keypress: equal
+195.4990 	EXP 	vid1b: autoDraw = False
+195.5157 	EXP 	vid2: autoDraw = True
+196.3677 	DATA 	Keypress: equal
+197.8677 	DATA 	Keypress: equal
+199.3678 	DATA 	Keypress: equal
+200.8676 	DATA 	Keypress: equal
+202.3675 	DATA 	Keypress: equal
+203.8676 	DATA 	Keypress: equal
+205.3676 	DATA 	Keypress: equal
+206.8675 	DATA 	Keypress: equal
+208.3677 	DATA 	Keypress: equal
+209.8676 	DATA 	Keypress: equal
+211.3675 	DATA 	Keypress: equal
+212.4321 	EXP 	Set vid2 finished
+212.4987 	EXP 	vid3: autoDraw = True
+212.8675 	DATA 	Keypress: equal
+214.3674 	DATA 	Keypress: equal
+215.8673 	DATA 	Keypress: equal
+217.3674 	DATA 	Keypress: equal
+218.8673 	DATA 	Keypress: equal
+220.3694 	DATA 	Keypress: equal
+221.8672 	DATA 	Keypress: equal
+223.3673 	DATA 	Keypress: equal
+224.8673 	DATA 	Keypress: equal
+226.3674 	DATA 	Keypress: equal
+227.8674 	DATA 	Keypress: equal
+229.3674 	DATA 	Keypress: equal
+230.8674 	DATA 	Keypress: equal
+232.3670 	DATA 	Keypress: equal
+233.8671 	DATA 	Keypress: equal
+235.3671 	DATA 	Keypress: equal
+235.4818 	EXP 	vid3: autoDraw = False
+235.4985 	EXP 	vid4: autoDraw = True
+236.8676 	DATA 	Keypress: equal
+238.3672 	DATA 	Keypress: equal
+239.8673 	DATA 	Keypress: equal
+241.3673 	DATA 	Keypress: equal
+242.8670 	DATA 	Keypress: equal
+244.3669 	DATA 	Keypress: equal
+245.8670 	DATA 	Keypress: equal
+247.3669 	DATA 	Keypress: equal
+248.8671 	DATA 	Keypress: equal
+250.3669 	DATA 	Keypress: equal
+251.8669 	DATA 	Keypress: equal
+253.3671 	DATA 	Keypress: equal
+254.8669 	DATA 	Keypress: equal
+256.3667 	DATA 	Keypress: equal
+257.8947 	DATA 	Keypress: equal
+259.3670 	DATA 	Keypress: equal
+259.4814 	EXP 	vid4: autoDraw = False
+259.4981 	EXP 	vid5: autoDraw = True
+260.8669 	DATA 	Keypress: equal
+262.3670 	DATA 	Keypress: equal
+263.8671 	DATA 	Keypress: equal
+265.3670 	DATA 	Keypress: equal
+266.8668 	DATA 	Keypress: equal
+268.3667 	DATA 	Keypress: equal
+269.8665 	DATA 	Keypress: equal
+271.3669 	DATA 	Keypress: equal
+272.5932 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+272.5936 	EXP 	New trial (rep=0, index=0): None
+273.0191 	EXP 	Created vid1a_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-15.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+273.3988 	EXP 	Created vid1b_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-15.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+273.8719 	EXP 	Created vid2_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-15.2a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+274.3384 	EXP 	Created vid3_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-15.3a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+274.8771 	EXP 	Created vid4_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-7.0, filename='stims/wedding-15.4a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+275.2854 	EXP 	Created vid5_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-8.0, filename='stims/wedding-15.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+275.4412 	EXP 	window1: recordFrameIntervals = False
+275.4444 	DATA 	Keypress: equal
+275.4469 	DATA 	Keypress: equal
+275.4646 	EXP 	vid5: autoDraw = False
+275.4646 	EXP 	vid1a: autoDraw = False
+275.4646 	EXP 	vid1b: autoDraw = False
+275.4646 	EXP 	vid2: autoDraw = False
+275.4646 	EXP 	vid3: autoDraw = False
+275.4646 	EXP 	vid4: autoDraw = False
+275.4646 	EXP 	vid5: autoDraw = False
+275.4646 	EXP 	vid1a_q: movie = 'stims/wedding-15.1a.mp4'
+275.4646 	EXP 	vid1a_q: autoLog = True
+275.4646 	EXP 	vid1b_q: movie = 'stims/wedding-15.1b.mp4'
+275.4646 	EXP 	vid1b_q: autoLog = True
+275.4646 	EXP 	vid2_q: movie = 'stims/wedding-15.2a.mp4'
+275.4646 	EXP 	vid2_q: autoLog = True
+275.4646 	EXP 	vid3_q: movie = 'stims/wedding-15.3a.mp4'
+275.4646 	EXP 	vid3_q: autoLog = True
+275.4646 	EXP 	vid4_q: movie = 'stims/wedding-15.4a.mp4'
+275.4646 	EXP 	vid4_q: autoLog = True
+275.4646 	EXP 	vid5_q: movie = 'stims/wedding-15.5.mp4'
+275.4646 	EXP 	vid5_q: autoLog = True
+275.4646 	EXP 	vid1a_q: autoDraw = False
+275.4646 	EXP 	vid1b_q: autoDraw = False
+275.4646 	EXP 	vid2_q: autoDraw = False
+275.4646 	EXP 	l2q: autoDraw = False
+275.4646 	EXP 	vid3_q: autoDraw = False
+275.4646 	EXP 	l3q: autoDraw = False
+275.4646 	EXP 	vid4_q: autoDraw = False
+275.4646 	EXP 	vid5_q: autoDraw = False
+275.6905 	EXP 	window1: recordFrameIntervals = False
+277.2279 	DATA 	Keypress: equal
+277.3599 	DATA 	Keypress: equal
+277.4479 	EXP 	eggPainting1: image = 'stimsday1details/egg15.png'
+277.4479 	EXP 	eggPainting2: image = 'stimsday1details/newegg5.png'
+277.4479 	EXP 	character1: image = 'stimsday1details/couple15.png'
+277.4479 	EXP 	character2: image = 'stimsday1details/newperson5.png'
+277.4479 	EXP 	gift1: image = 'stimsday1details/gift15.png'
+277.4479 	EXP 	gift2: image = 'stimsday1details/new5.png'
+277.4479 	EXP 	themeQ1: image = 'stimsday1details/t15.png'
+277.4479 	EXP 	themeQ2: image = 'stimsday1details/ct15.png'
+277.4479 	EXP 	nameQ1: image = 'stimsday1details/n15.png'
+277.4479 	EXP 	nameQ2: image = 'stimsday1details/cn15.png'
+277.4479 	EXP 	nameQ1: autoDraw = True
+277.4479 	EXP 	nameQ2: autoDraw = True
+278.4829 	DATA 	Keypress: 1
+278.8662 	DATA 	Keypress: equal
+279.4313 	EXP 	nameQ1: autoDraw = False
+279.4313 	EXP 	nameQ2: autoDraw = False
+279.4313 	EXP 	nameQ1: autoDraw = False
+279.4313 	EXP 	nameQ2: autoDraw = False
+279.4313 	EXP 	eggPainting1: autoDraw = True
+279.4313 	EXP 	eggPainting2: autoDraw = True
+280.0659 	DATA 	Keypress: 1
+280.3664 	DATA 	Keypress: equal
+281.4312 	EXP 	eggPainting1: autoDraw = False
+281.4312 	EXP 	eggPainting2: autoDraw = False
+281.4312 	EXP 	eggPainting1: autoDraw = False
+281.4312 	EXP 	eggPainting2: autoDraw = False
+281.4312 	EXP 	character1: autoDraw = True
+281.4312 	EXP 	character2: autoDraw = True
+281.8664 	DATA 	Keypress: equal
+282.2493 	DATA 	Keypress: 1
+283.3660 	DATA 	Keypress: equal
+283.4313 	EXP 	character1: autoDraw = False
+283.4313 	EXP 	character2: autoDraw = False
+283.4313 	EXP 	character1: autoDraw = False
+283.4313 	EXP 	character2: autoDraw = False
+283.4313 	EXP 	themeQ1: autoDraw = True
+283.4313 	EXP 	themeQ2: autoDraw = True
+284.4326 	DATA 	Keypress: 1
+284.8663 	DATA 	Keypress: equal
+285.4313 	EXP 	themeQ1: autoDraw = False
+285.4313 	EXP 	themeQ2: autoDraw = False
+285.4313 	EXP 	themeQ1: autoDraw = False
+285.4313 	EXP 	themeQ2: autoDraw = False
+285.4313 	EXP 	gift1: autoDraw = True
+285.4313 	EXP 	gift2: autoDraw = True
+286.1662 	DATA 	Keypress: 1
+286.3661 	DATA 	Keypress: equal
+287.4312 	EXP 	gift1: autoDraw = False
+287.4312 	EXP 	gift2: autoDraw = False
+287.4312 	EXP 	gift1: autoDraw = False
+287.4312 	EXP 	gift2: autoDraw = False
+287.4312 	EXP 	northorsouth1: autoDraw = True
+287.4312 	EXP 	northorsouth2: autoDraw = True
+287.8663 	DATA 	Keypress: equal
+288.1325 	DATA 	Keypress: 1
+289.3661 	DATA 	Keypress: equal
+289.6210 	EXP 	New trial (rep=0, index=2): OrderedDict([('condsFile', 'videoBlock_schemaN_pathA_6.csv')])
+289.6336 	EXP 	Imported videoBlock_schemaN_pathA_6.csv as conditions, 1 conditions, 17 params
+289.6340 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+289.6348 	EXP 	New trial (rep=0, index=0): OrderedDict([('northOrSouth', 'north.png'), ('stimFile1a', 'stims/wedding-40.1a.mp4'), ('stimFile1b', 'stims/wedding-40.1b.mp4'), ('stimFile2', 'stims/wedding-40.2a.mp4'), ('stimFile3', 'stims/wedding-40.3a.mp4'), ('stimFile4', 'stims/wedding-40.4a.mp4'), ('stimFile5', 'stims/wedding-40.5.mp4'), ('QeggPainting1', 'stimsday1details/newegg6.png'), ('Qcharacter1', 'stimsday1details/newperson6.png'), ('Qgift1', 'stimsday1details/new6.png'), ('QeggPainting2', 'stimsday1details/egg40.png'), ('Qcharacter2', 'stimsday1details/couple40.png'), ('Qgift2', 'stimsday1details/gift40.png'), ('Qname1', 'stimsday1details/n40.png'), ('Qtheme1', 'stimsday1details/t40.png'), ('Qname2', 'stimsday1details/cn40.png'), ('Qtheme2', 'stimsday1details/ct40.png')])
+289.6477 	EXP 	northorsouth1: autoDraw = False
+289.6477 	EXP 	northorsouth2: autoDraw = False
+289.6477 	EXP 	northorsouth1: autoDraw = False
+289.6477 	EXP 	northorsouth2: autoDraw = False
+289.6477 	EXP 	image_3: autoDraw = True
+290.8665 	DATA 	Keypress: equal
+291.6322 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+291.6325 	EXP 	New trial (rep=0, index=0): None
+292.0703 	EXP 	Created vid1a = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-40.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+292.4215 	EXP 	Created vid1b = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-40.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+292.9199 	EXP 	Created vid2 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-40.2a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+293.3968 	EXP 	Created vid3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='stims/wedding-40.3a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+293.8823 	EXP 	Created vid4 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-40.4a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+294.3201 	EXP 	Created vid5 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-6.0, filename='stims/wedding-40.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+294.4242 	EXP 	window1: recordFrameIntervals = False
+294.4276 	DATA 	Keypress: equal
+294.4299 	DATA 	Keypress: equal
+294.4477 	EXP 	image_3: autoDraw = False
+294.4477 	EXP 	image_3: autoDraw = False
+294.4477 	EXP 	vid1a: movie = 'stims/wedding-40.1a.mp4'
+294.4477 	EXP 	vid1a: autoLog = True
+294.4477 	EXP 	vid1b: movie = 'stims/wedding-40.1b.mp4'
+294.4477 	EXP 	vid1b: autoLog = True
+294.4477 	EXP 	vid2: movie = 'stims/wedding-40.2a.mp4'
+294.4477 	EXP 	vid2: autoLog = True
+294.4477 	EXP 	vid3: movie = 'stims/wedding-40.3a.mp4'
+294.4477 	EXP 	vid3: autoLog = True
+294.4477 	EXP 	vid4: movie = 'stims/wedding-40.4a.mp4'
+294.4477 	EXP 	vid4: autoLog = True
+294.4477 	EXP 	vid5: movie = 'stims/wedding-40.5.mp4'
+294.4477 	EXP 	vid5: autoLog = True
+297.0035 	EXP 	window1: recordFrameIntervals = False
+299.2127 	DATA 	Keypress: equal
+299.2158 	DATA 	Keypress: equal
+299.2179 	DATA 	Keypress: equal
+299.4194 	EXP 	vid1a: movie = 'stims/wedding-40.1a.mp4'
+299.4194 	EXP 	vid1b: movie = 'stims/wedding-40.1b.mp4'
+299.4194 	EXP 	vid2: movie = 'stims/wedding-40.2a.mp4'
+299.4194 	EXP 	vid3: movie = 'stims/wedding-40.3a.mp4'
+299.4194 	EXP 	vid4: movie = 'stims/wedding-40.4a.mp4'
+299.4194 	EXP 	vid5: movie = 'stims/wedding-40.5.mp4'
+299.4311 	EXP 	vid1a: autoDraw = True
+299.8665 	DATA 	Keypress: equal
+301.3663 	DATA 	Keypress: equal
+302.8662 	DATA 	Keypress: equal
+304.3663 	DATA 	Keypress: equal
+305.8665 	DATA 	Keypress: equal
+307.3662 	DATA 	Keypress: equal
+308.8666 	DATA 	Keypress: equal
+310.3662 	DATA 	Keypress: equal
+311.8664 	DATA 	Keypress: equal
+313.3664 	DATA 	Keypress: equal
+314.8664 	DATA 	Keypress: equal
+315.6475 	EXP 	vid1a: autoDraw = False
+315.6642 	EXP 	vid1b: autoDraw = True
+316.3663 	DATA 	Keypress: equal
+317.8660 	DATA 	Keypress: equal
+319.3664 	DATA 	Keypress: equal
+320.8662 	DATA 	Keypress: equal
+322.3663 	DATA 	Keypress: equal
+323.4307 	EXP 	Set vid1b finished
+323.6640 	EXP 	vid2: autoDraw = True
+323.8661 	DATA 	Keypress: equal
+325.3659 	DATA 	Keypress: equal
+326.8660 	DATA 	Keypress: equal
+328.3659 	DATA 	Keypress: equal
+329.8660 	DATA 	Keypress: equal
+331.3659 	DATA 	Keypress: equal
+332.8662 	DATA 	Keypress: equal
+334.3660 	DATA 	Keypress: equal
+335.8660 	DATA 	Keypress: equal
+337.3657 	DATA 	Keypress: equal
+338.8575 	DATA 	Keypress: equal
+340.3472 	EXP 	Set vid2 finished
+340.3657 	DATA 	Keypress: equal
+340.6639 	EXP 	vid3: autoDraw = True
+341.8660 	DATA 	Keypress: equal
+343.3659 	DATA 	Keypress: equal
+344.8661 	DATA 	Keypress: equal
+346.3658 	DATA 	Keypress: equal
+347.8660 	DATA 	Keypress: equal
+349.3572 	DATA 	Keypress: equal
+350.8659 	DATA 	Keypress: equal
+352.3570 	DATA 	Keypress: equal
+353.8655 	DATA 	Keypress: equal
+355.3570 	DATA 	Keypress: equal
+356.8658 	DATA 	Keypress: equal
+358.3658 	DATA 	Keypress: equal
+359.8656 	DATA 	Keypress: equal
+361.3658 	DATA 	Keypress: equal
+362.8656 	DATA 	Keypress: equal
+363.6469 	EXP 	vid3: autoDraw = False
+363.6635 	EXP 	vid4: autoDraw = True
+364.3659 	DATA 	Keypress: equal
+365.8653 	DATA 	Keypress: equal
+367.3655 	DATA 	Keypress: equal
+368.8653 	DATA 	Keypress: equal
+370.3656 	DATA 	Keypress: equal
+371.8656 	DATA 	Keypress: equal
+373.3657 	DATA 	Keypress: equal
+374.8564 	DATA 	Keypress: equal
+376.3657 	DATA 	Keypress: equal
+377.8562 	DATA 	Keypress: equal
+379.3656 	DATA 	Keypress: equal
+380.8563 	DATA 	Keypress: equal
+382.3652 	DATA 	Keypress: equal
+383.8568 	DATA 	Keypress: equal
+385.3838 	DATA 	Keypress: equal
+386.8655 	DATA 	Keypress: equal
+387.5132 	EXP 	Set vid4 finished
+387.6632 	EXP 	vid5: autoDraw = True
+388.3651 	DATA 	Keypress: equal
+389.8654 	DATA 	Keypress: equal
+391.3653 	DATA 	Keypress: equal
+392.8651 	DATA 	Keypress: equal
+394.3651 	DATA 	Keypress: equal
+395.8652 	DATA 	Keypress: equal
+397.3553 	DATA 	Keypress: equal
+398.8559 	DATA 	Keypress: equal
+400.3560 	DATA 	Keypress: equal
+400.7850 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+400.7853 	EXP 	New trial (rep=0, index=0): None
+401.2033 	EXP 	Created vid1a_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-40.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+401.5359 	EXP 	Created vid1b_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-40.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+401.9894 	EXP 	Created vid2_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-40.2a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+402.4492 	EXP 	Created vid3_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-40.3a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+402.9253 	EXP 	Created vid4_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-7.0, filename='stims/wedding-40.4a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+403.3283 	EXP 	Created vid5_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-8.0, filename='stims/wedding-40.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+403.5766 	EXP 	window1: recordFrameIntervals = False
+403.5798 	DATA 	Keypress: equal
+403.5820 	DATA 	Keypress: equal
+403.5964 	EXP 	vid5: autoDraw = False
+403.5964 	EXP 	vid1a: autoDraw = False
+403.5964 	EXP 	vid1b: autoDraw = False
+403.5964 	EXP 	vid2: autoDraw = False
+403.5964 	EXP 	vid3: autoDraw = False
+403.5964 	EXP 	vid4: autoDraw = False
+403.5964 	EXP 	vid5: autoDraw = False
+403.5964 	EXP 	vid1a_q: movie = 'stims/wedding-40.1a.mp4'
+403.5964 	EXP 	vid1a_q: autoLog = True
+403.5964 	EXP 	vid1b_q: movie = 'stims/wedding-40.1b.mp4'
+403.5964 	EXP 	vid1b_q: autoLog = True
+403.5964 	EXP 	vid2_q: movie = 'stims/wedding-40.2a.mp4'
+403.5964 	EXP 	vid2_q: autoLog = True
+403.5964 	EXP 	vid3_q: movie = 'stims/wedding-40.3a.mp4'
+403.5964 	EXP 	vid3_q: autoLog = True
+403.5964 	EXP 	vid4_q: movie = 'stims/wedding-40.4a.mp4'
+403.5964 	EXP 	vid4_q: autoLog = True
+403.5964 	EXP 	vid5_q: movie = 'stims/wedding-40.5.mp4'
+403.5964 	EXP 	vid5_q: autoLog = True
+403.5964 	EXP 	vid1a_q: autoDraw = False
+403.5964 	EXP 	vid1b_q: autoDraw = False
+403.5964 	EXP 	vid2_q: autoDraw = False
+403.5964 	EXP 	l2q: autoDraw = False
+403.5964 	EXP 	vid3_q: autoDraw = False
+403.5964 	EXP 	l3q: autoDraw = False
+403.5964 	EXP 	vid4_q: autoDraw = False
+403.5964 	EXP 	vid5_q: autoDraw = False
+403.8071 	EXP 	window1: recordFrameIntervals = False
+405.3634 	DATA 	Keypress: equal
+405.5797 	EXP 	eggPainting1: image = 'stimsday1details/newegg6.png'
+405.5797 	EXP 	eggPainting2: image = 'stimsday1details/egg40.png'
+405.5797 	EXP 	character1: image = 'stimsday1details/newperson6.png'
+405.5797 	EXP 	character2: image = 'stimsday1details/couple40.png'
+405.5797 	EXP 	gift1: image = 'stimsday1details/new6.png'
+405.5797 	EXP 	gift2: image = 'stimsday1details/gift40.png'
+405.5797 	EXP 	themeQ1: image = 'stimsday1details/t40.png'
+405.5797 	EXP 	themeQ2: image = 'stimsday1details/ct40.png'
+405.5797 	EXP 	nameQ1: image = 'stimsday1details/n40.png'
+405.5797 	EXP 	nameQ2: image = 'stimsday1details/cn40.png'
+405.5797 	EXP 	nameQ1: autoDraw = True
+405.5797 	EXP 	nameQ2: autoDraw = True
+406.3648 	DATA 	Keypress: equal
+406.7644 	DATA 	Keypress: 1
+407.5797 	EXP 	nameQ1: autoDraw = False
+407.5797 	EXP 	nameQ2: autoDraw = False
+407.5797 	EXP 	nameQ1: autoDraw = False
+407.5797 	EXP 	nameQ2: autoDraw = False
+407.5797 	EXP 	eggPainting1: autoDraw = True
+407.5797 	EXP 	eggPainting2: autoDraw = True
+407.8645 	DATA 	Keypress: equal
+408.3481 	DATA 	Keypress: 2
+409.3644 	DATA 	Keypress: equal
+409.5796 	EXP 	eggPainting1: autoDraw = False
+409.5796 	EXP 	eggPainting2: autoDraw = False
+409.5796 	EXP 	eggPainting1: autoDraw = False
+409.5796 	EXP 	eggPainting2: autoDraw = False
+409.5796 	EXP 	character1: autoDraw = True
+409.5796 	EXP 	character2: autoDraw = True
+410.5478 	DATA 	Keypress: 2
+410.8647 	DATA 	Keypress: equal
+411.5795 	EXP 	character1: autoDraw = False
+411.5795 	EXP 	character2: autoDraw = False
+411.5795 	EXP 	character1: autoDraw = False
+411.5795 	EXP 	character2: autoDraw = False
+411.5795 	EXP 	themeQ1: autoDraw = True
+411.5795 	EXP 	themeQ2: autoDraw = True
+412.3649 	DATA 	Keypress: equal
+412.6146 	DATA 	Keypress: 1
+413.5796 	EXP 	themeQ1: autoDraw = False
+413.5796 	EXP 	themeQ2: autoDraw = False
+413.5796 	EXP 	themeQ1: autoDraw = False
+413.5796 	EXP 	themeQ2: autoDraw = False
+413.5796 	EXP 	gift1: autoDraw = True
+413.5796 	EXP 	gift2: autoDraw = True
+413.8646 	DATA 	Keypress: equal
+414.3977 	DATA 	Keypress: 2
+415.3644 	DATA 	Keypress: equal
+415.5795 	EXP 	gift1: autoDraw = False
+415.5795 	EXP 	gift2: autoDraw = False
+415.5795 	EXP 	gift1: autoDraw = False
+415.5795 	EXP 	gift2: autoDraw = False
+415.5795 	EXP 	northorsouth1: autoDraw = True
+415.5795 	EXP 	northorsouth2: autoDraw = True
+416.6976 	DATA 	Keypress: 1
+416.8644 	DATA 	Keypress: equal
+417.7994 	EXP 	New trial (rep=0, index=3): OrderedDict([('condsFile', 'videoBlock_schemaN_pathB_4.csv')])
+417.8127 	EXP 	Imported videoBlock_schemaN_pathB_4.csv as conditions, 1 conditions, 17 params
+417.8132 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+417.8139 	EXP 	New trial (rep=0, index=0): OrderedDict([('northOrSouth', 'north.png'), ('stimFile1a', 'stims/wedding-12.1a.mp4'), ('stimFile1b', 'stims/wedding-12.1b.mp4'), ('stimFile2', 'stims/wedding-12.2b.mp4'), ('stimFile3', 'stims/wedding-12.3b.mp4'), ('stimFile4', 'stims/wedding-12.4b.mp4'), ('stimFile5', 'stims/wedding-12.5.mp4'), ('QeggPainting1', 'stimsday1details/painting12.png'), ('Qcharacter1', 'stimsday1details/couple12.png'), ('Qgift1', 'stimsday1details/gift12.png'), ('QeggPainting2', 'stimsday1details/newpainting4.png'), ('Qcharacter2', 'stimsday1details/newperson16.png'), ('Qgift2', 'stimsday1details/new16.png'), ('Qname1', 'stimsday1details/n12.png'), ('Qtheme1', 'stimsday1details/t12.png'), ('Qname2', 'stimsday1details/cn12.png'), ('Qtheme2', 'stimsday1details/ct12.png')])
+417.8296 	EXP 	northorsouth1: autoDraw = False
+417.8296 	EXP 	northorsouth2: autoDraw = False
+417.8296 	EXP 	northorsouth1: autoDraw = False
+417.8296 	EXP 	northorsouth2: autoDraw = False
+417.8296 	EXP 	image_3: autoDraw = True
+418.3648 	DATA 	Keypress: equal
+419.8140 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+419.8143 	EXP 	New trial (rep=0, index=0): None
+420.2596 	EXP 	Created vid1a = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-12.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+420.6556 	EXP 	Created vid1b = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-12.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+421.0693 	EXP 	Created vid2 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-12.2b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+421.6479 	EXP 	Created vid3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='stims/wedding-12.3b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+422.1233 	EXP 	Created vid4 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-12.4b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+422.5425 	EXP 	Created vid5 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-6.0, filename='stims/wedding-12.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+422.6179 	EXP 	window1: recordFrameIntervals = False
+422.6212 	DATA 	Keypress: equal
+422.6236 	DATA 	Keypress: equal
+422.6344 	EXP 	image_3: autoDraw = False
+422.6344 	EXP 	image_3: autoDraw = False
+422.6344 	EXP 	vid1a: movie = 'stims/wedding-12.1a.mp4'
+422.6344 	EXP 	vid1a: autoLog = True
+422.6344 	EXP 	vid1b: movie = 'stims/wedding-12.1b.mp4'
+422.6344 	EXP 	vid1b: autoLog = True
+422.6344 	EXP 	vid2: movie = 'stims/wedding-12.2b.mp4'
+422.6344 	EXP 	vid2: autoLog = True
+422.6344 	EXP 	vid3: movie = 'stims/wedding-12.3b.mp4'
+422.6344 	EXP 	vid3: autoLog = True
+422.6344 	EXP 	vid4: movie = 'stims/wedding-12.4b.mp4'
+422.6344 	EXP 	vid4: autoLog = True
+422.6344 	EXP 	vid5: movie = 'stims/wedding-12.5.mp4'
+422.6344 	EXP 	vid5: autoLog = True
+425.2231 	EXP 	window1: recordFrameIntervals = False
+427.4062 	DATA 	Keypress: equal
+427.4087 	DATA 	Keypress: equal
+427.4113 	DATA 	Keypress: equal
+427.4134 	DATA 	Keypress: equal
+427.6137 	EXP 	vid1a: movie = 'stims/wedding-12.1a.mp4'
+427.6137 	EXP 	vid1b: movie = 'stims/wedding-12.1b.mp4'
+427.6137 	EXP 	vid2: movie = 'stims/wedding-12.2b.mp4'
+427.6137 	EXP 	vid3: movie = 'stims/wedding-12.3b.mp4'
+427.6137 	EXP 	vid4: movie = 'stims/wedding-12.4b.mp4'
+427.6137 	EXP 	vid5: movie = 'stims/wedding-12.5.mp4'
+427.6342 	EXP 	vid1a: autoDraw = True
+428.8646 	DATA 	Keypress: equal
+430.3649 	DATA 	Keypress: equal
+431.8649 	DATA 	Keypress: equal
+433.3648 	DATA 	Keypress: equal
+434.8646 	DATA 	Keypress: equal
+436.3550 	DATA 	Keypress: equal
+437.8565 	DATA 	Keypress: equal
+439.3554 	DATA 	Keypress: equal
+440.8558 	DATA 	Keypress: equal
+442.3559 	DATA 	Keypress: equal
+443.8292 	EXP 	vid1a: autoDraw = False
+443.8459 	EXP 	vid1b: autoDraw = True
+443.8647 	DATA 	Keypress: equal
+445.3557 	DATA 	Keypress: equal
+446.8545 	DATA 	Keypress: equal
+448.3549 	DATA 	Keypress: equal
+449.8548 	DATA 	Keypress: equal
+451.3563 	DATA 	Keypress: equal
+451.8291 	EXP 	vid1b: autoDraw = False
+451.8457 	EXP 	vid2: autoDraw = True
+452.8554 	DATA 	Keypress: equal
+454.3559 	DATA 	Keypress: equal
+455.8559 	DATA 	Keypress: equal
+457.3564 	DATA 	Keypress: equal
+458.8555 	DATA 	Keypress: equal
+460.3644 	DATA 	Keypress: equal
+461.8643 	DATA 	Keypress: equal
+463.3643 	DATA 	Keypress: equal
+464.8641 	DATA 	Keypress: equal
+466.3642 	DATA 	Keypress: equal
+467.8644 	DATA 	Keypress: equal
+468.7288 	EXP 	Set vid2 finished
+468.8455 	EXP 	vid3: autoDraw = True
+469.3819 	DATA 	Keypress: equal
+470.8548 	DATA 	Keypress: equal
+472.3556 	DATA 	Keypress: equal
+473.8551 	DATA 	Keypress: equal
+475.3551 	DATA 	Keypress: equal
+476.8558 	DATA 	Keypress: equal
+478.3640 	DATA 	Keypress: equal
+479.8641 	DATA 	Keypress: equal
+481.3639 	DATA 	Keypress: equal
+482.8642 	DATA 	Keypress: equal
+484.3641 	DATA 	Keypress: equal
+485.8640 	DATA 	Keypress: equal
+487.3638 	DATA 	Keypress: equal
+488.8639 	DATA 	Keypress: equal
+490.3641 	DATA 	Keypress: equal
+491.8286 	EXP 	vid3: autoDraw = False
+491.8453 	EXP 	vid4: autoDraw = True
+491.8639 	DATA 	Keypress: equal
+493.3538 	DATA 	Keypress: equal
+494.8541 	DATA 	Keypress: equal
+496.3551 	DATA 	Keypress: equal
+497.8541 	DATA 	Keypress: equal
+499.3537 	DATA 	Keypress: equal
+500.8640 	DATA 	Keypress: equal
+502.3639 	DATA 	Keypress: equal
+503.8918 	DATA 	Keypress: equal
+505.3636 	DATA 	Keypress: equal
+506.8639 	DATA 	Keypress: equal
+508.3636 	DATA 	Keypress: equal
+509.8636 	DATA 	Keypress: equal
+511.3637 	DATA 	Keypress: equal
+512.8638 	DATA 	Keypress: equal
+514.3638 	DATA 	Keypress: equal
+514.8950 	EXP 	Set vid4 finished
+515.8450 	EXP 	vid5: autoDraw = True
+515.8636 	DATA 	Keypress: equal
+517.3576 	DATA 	Keypress: equal
+518.8550 	DATA 	Keypress: equal
+520.3550 	DATA 	Keypress: equal
+521.8549 	DATA 	Keypress: equal
+523.3536 	DATA 	Keypress: equal
+524.8637 	DATA 	Keypress: equal
+526.3633 	DATA 	Keypress: equal
+527.8633 	DATA 	Keypress: equal
+527.8948 	EXP 	Set vid5 finished
+528.0720 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+528.0723 	EXP 	New trial (rep=0, index=0): None
+528.5035 	EXP 	Created vid1a_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-12.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+528.8815 	EXP 	Created vid1b_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-12.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+529.2928 	EXP 	Created vid2_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-12.2b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+529.8138 	EXP 	Created vid3_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-12.3b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+530.2760 	EXP 	Created vid4_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-7.0, filename='stims/wedding-12.4b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+530.6602 	EXP 	Created vid5_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-8.0, filename='stims/wedding-12.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+530.9399 	EXP 	window1: recordFrameIntervals = False
+530.9430 	DATA 	Keypress: equal
+530.9452 	DATA 	Keypress: equal
+530.9614 	EXP 	vid1a: autoDraw = False
+530.9614 	EXP 	vid1b: autoDraw = False
+530.9614 	EXP 	vid2: autoDraw = False
+530.9614 	EXP 	vid3: autoDraw = False
+530.9614 	EXP 	vid4: autoDraw = False
+530.9614 	EXP 	vid5: autoDraw = False
+530.9614 	EXP 	vid1a_q: movie = 'stims/wedding-12.1a.mp4'
+530.9614 	EXP 	vid1a_q: autoLog = True
+530.9614 	EXP 	vid1b_q: movie = 'stims/wedding-12.1b.mp4'
+530.9614 	EXP 	vid1b_q: autoLog = True
+530.9614 	EXP 	vid2_q: movie = 'stims/wedding-12.2b.mp4'
+530.9614 	EXP 	vid2_q: autoLog = True
+530.9614 	EXP 	vid3_q: movie = 'stims/wedding-12.3b.mp4'
+530.9614 	EXP 	vid3_q: autoLog = True
+530.9614 	EXP 	vid4_q: movie = 'stims/wedding-12.4b.mp4'
+530.9614 	EXP 	vid4_q: autoLog = True
+530.9614 	EXP 	vid5_q: movie = 'stims/wedding-12.5.mp4'
+530.9614 	EXP 	vid5_q: autoLog = True
+530.9614 	EXP 	vid1a_q: autoDraw = False
+530.9614 	EXP 	vid1b_q: autoDraw = False
+530.9614 	EXP 	vid2_q: autoDraw = False
+530.9614 	EXP 	l2q: autoDraw = False
+530.9614 	EXP 	vid3_q: autoDraw = False
+530.9614 	EXP 	l3q: autoDraw = False
+530.9614 	EXP 	vid4_q: autoDraw = False
+530.9614 	EXP 	vid5_q: autoDraw = False
+531.1628 	EXP 	window1: recordFrameIntervals = False
+532.7265 	DATA 	Keypress: equal
+532.9447 	EXP 	eggPainting1: image = 'stimsday1details/painting12.png'
+532.9447 	EXP 	eggPainting2: image = 'stimsday1details/newpainting4.png'
+532.9447 	EXP 	character1: image = 'stimsday1details/couple12.png'
+532.9447 	EXP 	character2: image = 'stimsday1details/newperson16.png'
+532.9447 	EXP 	gift1: image = 'stimsday1details/gift12.png'
+532.9447 	EXP 	gift2: image = 'stimsday1details/new16.png'
+532.9447 	EXP 	themeQ1: image = 'stimsday1details/t12.png'
+532.9447 	EXP 	themeQ2: image = 'stimsday1details/ct12.png'
+532.9447 	EXP 	nameQ1: image = 'stimsday1details/n12.png'
+532.9447 	EXP 	nameQ2: image = 'stimsday1details/cn12.png'
+532.9447 	EXP 	nameQ1: autoDraw = True
+532.9447 	EXP 	nameQ2: autoDraw = True
+533.8633 	DATA 	Keypress: equal
+533.8961 	DATA 	Keypress: 1
+534.9447 	EXP 	nameQ1: autoDraw = False
+534.9447 	EXP 	nameQ2: autoDraw = False
+534.9447 	EXP 	nameQ1: autoDraw = False
+534.9447 	EXP 	nameQ2: autoDraw = False
+534.9447 	EXP 	eggPainting1: autoDraw = True
+534.9447 	EXP 	eggPainting2: autoDraw = True
+535.3629 	DATA 	Keypress: equal
+535.5962 	DATA 	Keypress: 1
+536.8636 	DATA 	Keypress: equal
+536.9447 	EXP 	eggPainting1: autoDraw = False
+536.9447 	EXP 	eggPainting2: autoDraw = False
+536.9447 	EXP 	eggPainting1: autoDraw = False
+536.9447 	EXP 	eggPainting2: autoDraw = False
+536.9447 	EXP 	character1: autoDraw = True
+536.9447 	EXP 	character2: autoDraw = True
+537.9630 	DATA 	Keypress: 1
+538.3629 	DATA 	Keypress: equal
+538.9446 	EXP 	character1: autoDraw = False
+538.9446 	EXP 	character2: autoDraw = False
+538.9446 	EXP 	character1: autoDraw = False
+538.9446 	EXP 	character2: autoDraw = False
+538.9446 	EXP 	themeQ1: autoDraw = True
+538.9446 	EXP 	themeQ2: autoDraw = True
+539.8631 	DATA 	Keypress: equal
+540.3961 	DATA 	Keypress: 1
+540.9446 	EXP 	themeQ1: autoDraw = False
+540.9446 	EXP 	themeQ2: autoDraw = False
+540.9446 	EXP 	themeQ1: autoDraw = False
+540.9446 	EXP 	themeQ2: autoDraw = False
+540.9446 	EXP 	gift1: autoDraw = True
+540.9446 	EXP 	gift2: autoDraw = True
+541.3628 	DATA 	Keypress: equal
+542.0461 	DATA 	Keypress: 1
+542.8631 	DATA 	Keypress: equal
+542.9446 	EXP 	gift1: autoDraw = False
+542.9446 	EXP 	gift2: autoDraw = False
+542.9446 	EXP 	gift1: autoDraw = False
+542.9446 	EXP 	gift2: autoDraw = False
+542.9446 	EXP 	northorsouth1: autoDraw = True
+542.9446 	EXP 	northorsouth2: autoDraw = True
+543.7298 	DATA 	Keypress: 1
+544.3627 	DATA 	Keypress: equal
+545.1931 	EXP 	New trial (rep=0, index=4): OrderedDict([('condsFile', 'videoBlock_schemaN_pathB_6.csv')])
+545.2062 	EXP 	Imported videoBlock_schemaN_pathB_6.csv as conditions, 1 conditions, 17 params
+545.2067 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+545.2075 	EXP 	New trial (rep=0, index=0): OrderedDict([('northOrSouth', 'north.png'), ('stimFile1a', 'stims/wedding-16.1a.mp4'), ('stimFile1b', 'stims/wedding-16.1b.mp4'), ('stimFile2', 'stims/wedding-16.2b.mp4'), ('stimFile3', 'stims/wedding-16.3b.mp4'), ('stimFile4', 'stims/wedding-16.4b.mp4'), ('stimFile5', 'stims/wedding-16.5.mp4'), ('QeggPainting1', 'stimsday1details/painting16.png'), ('Qcharacter1', 'stimsday1details/newperson18.png'), ('Qgift1', 'stimsday1details/gift16.png'), ('QeggPainting2', 'stimsday1details/newpainting6.png'), ('Qcharacter2', 'stimsday1details/couple16.png'), ('Qgift2', 'stimsday1details/new18.png'), ('Qname1', 'stimsday1details/n16.png'), ('Qtheme1', 'stimsday1details/ct16.png'), ('Qname2', 'stimsday1details/cn16.png'), ('Qtheme2', 'stimsday1details/t16.png')])
+545.2112 	EXP 	northorsouth1: autoDraw = False
+545.2112 	EXP 	northorsouth2: autoDraw = False
+545.2112 	EXP 	northorsouth1: autoDraw = False
+545.2112 	EXP 	northorsouth2: autoDraw = False
+545.2112 	EXP 	image_3: autoDraw = True
+545.8633 	DATA 	Keypress: equal
+547.2124 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+547.2127 	EXP 	New trial (rep=0, index=0): None
+547.6389 	EXP 	Created vid1a = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-16.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+548.0381 	EXP 	Created vid1b = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-16.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+548.5330 	EXP 	Created vid2 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-16.2b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+549.1239 	EXP 	Created vid3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='stims/wedding-16.3b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+549.7017 	EXP 	Created vid4 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-16.4b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+550.1280 	EXP 	Created vid5 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-6.0, filename='stims/wedding-16.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+550.2164 	EXP 	window1: recordFrameIntervals = False
+550.2197 	DATA 	Keypress: equal
+550.2220 	DATA 	Keypress: equal
+550.2280 	EXP 	image_3: autoDraw = False
+550.2280 	EXP 	image_3: autoDraw = False
+550.2280 	EXP 	vid1a: movie = 'stims/wedding-16.1a.mp4'
+550.2280 	EXP 	vid1a: autoLog = True
+550.2280 	EXP 	vid1b: movie = 'stims/wedding-16.1b.mp4'
+550.2280 	EXP 	vid1b: autoLog = True
+550.2280 	EXP 	vid2: movie = 'stims/wedding-16.2b.mp4'
+550.2280 	EXP 	vid2: autoLog = True
+550.2280 	EXP 	vid3: movie = 'stims/wedding-16.3b.mp4'
+550.2280 	EXP 	vid3: autoLog = True
+550.2280 	EXP 	vid4: movie = 'stims/wedding-16.4b.mp4'
+550.2280 	EXP 	vid4: autoLog = True
+550.2280 	EXP 	vid5: movie = 'stims/wedding-16.5.mp4'
+550.2280 	EXP 	vid5: autoLog = True
+552.9381 	EXP 	window1: recordFrameIntervals = False
+555.0090 	DATA 	Keypress: equal
+555.0119 	DATA 	Keypress: equal
+555.0142 	DATA 	Keypress: equal
+555.0163 	DATA 	Keypress: equal
+555.2117 	EXP 	vid1a: movie = 'stims/wedding-16.1a.mp4'
+555.2117 	EXP 	vid1b: movie = 'stims/wedding-16.1b.mp4'
+555.2117 	EXP 	vid2: movie = 'stims/wedding-16.2b.mp4'
+555.2117 	EXP 	vid3: movie = 'stims/wedding-16.3b.mp4'
+555.2117 	EXP 	vid4: movie = 'stims/wedding-16.4b.mp4'
+555.2117 	EXP 	vid5: movie = 'stims/wedding-16.5.mp4'
+555.2325 	EXP 	vid1a: autoDraw = True
+556.3631 	DATA 	Keypress: equal
+557.8632 	DATA 	Keypress: equal
+559.3633 	DATA 	Keypress: equal
+560.8632 	DATA 	Keypress: equal
+562.3630 	DATA 	Keypress: equal
+563.8542 	DATA 	Keypress: equal
+565.3530 	DATA 	Keypress: equal
+566.8546 	DATA 	Keypress: equal
+568.3541 	DATA 	Keypress: equal
+569.8544 	DATA 	Keypress: equal
+571.1443 	EXP 	Set vid1a finished
+571.2442 	EXP 	vid1b: autoDraw = True
+571.3530 	DATA 	Keypress: equal
+572.8541 	DATA 	Keypress: equal
+574.3519 	DATA 	Keypress: equal
+575.8543 	DATA 	Keypress: equal
+577.3512 	DATA 	Keypress: equal
+578.8546 	DATA 	Keypress: equal
+579.2275 	EXP 	vid1b: autoDraw = False
+579.2442 	EXP 	vid2: autoDraw = True
+580.3521 	DATA 	Keypress: equal
+581.8531 	DATA 	Keypress: equal
+583.3631 	DATA 	Keypress: equal
+584.8549 	DATA 	Keypress: equal
+586.3540 	DATA 	Keypress: equal
+587.8548 	DATA 	Keypress: equal
+589.3628 	DATA 	Keypress: equal
+590.8626 	DATA 	Keypress: equal
+592.3629 	DATA 	Keypress: equal
+593.8625 	DATA 	Keypress: equal
+595.3626 	DATA 	Keypress: equal
+596.2272 	EXP 	vid2: autoDraw = False
+596.2439 	EXP 	vid3: autoDraw = True
+596.8533 	DATA 	Keypress: equal
+598.3534 	DATA 	Keypress: equal
+599.8543 	DATA 	Keypress: equal
+601.3546 	DATA 	Keypress: equal
+602.8534 	DATA 	Keypress: equal
+604.3541 	DATA 	Keypress: equal
+605.8624 	DATA 	Keypress: equal
+607.3624 	DATA 	Keypress: equal
+608.8624 	DATA 	Keypress: equal
+610.3625 	DATA 	Keypress: equal
+611.8465 	DATA 	Keypress: equal
+613.3462 	DATA 	Keypress: equal
+614.8463 	DATA 	Keypress: equal
+616.3460 	DATA 	Keypress: equal
+617.8524 	DATA 	Keypress: equal
+619.2270 	EXP 	vid3: autoDraw = False
+619.2436 	EXP 	vid4: autoDraw = True
+619.3527 	DATA 	Keypress: equal
+620.8538 	DATA 	Keypress: equal
+622.3533 	DATA 	Keypress: equal
+623.8522 	DATA 	Keypress: equal
+625.3534 	DATA 	Keypress: equal
+626.8534 	DATA 	Keypress: equal
+628.3461 	DATA 	Keypress: equal
+629.8464 	DATA 	Keypress: equal
+631.3463 	DATA 	Keypress: equal
+632.8622 	DATA 	Keypress: equal
+634.3460 	DATA 	Keypress: equal
+635.8460 	DATA 	Keypress: equal
+637.3453 	DATA 	Keypress: equal
+638.8453 	DATA 	Keypress: equal
+640.3454 	DATA 	Keypress: equal
+641.8455 	DATA 	Keypress: equal
+643.2267 	EXP 	vid4: autoDraw = False
+643.2433 	EXP 	vid5: autoDraw = True
+643.3452 	DATA 	Keypress: equal
+644.8453 	DATA 	Keypress: equal
+646.3451 	DATA 	Keypress: equal
+647.8452 	DATA 	Keypress: equal
+649.3455 	DATA 	Keypress: equal
+650.8451 	DATA 	Keypress: equal
+652.3452 	DATA 	Keypress: equal
+653.8453 	DATA 	Keypress: equal
+655.3730 	DATA 	Keypress: equal
+655.7932 	EXP 	Set vid5 finished
+655.9951 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+655.9955 	EXP 	New trial (rep=0, index=0): None
+656.4171 	EXP 	Created vid1a_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-16.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+656.7986 	EXP 	Created vid1b_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-16.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+657.2544 	EXP 	Created vid2_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-16.2b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+657.7787 	EXP 	Created vid3_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-16.3b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+658.2939 	EXP 	Created vid4_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-7.0, filename='stims/wedding-16.4b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+658.6848 	EXP 	Created vid5_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-8.0, filename='stims/wedding-16.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+658.9960 	EXP 	window1: recordFrameIntervals = False
+658.9992 	DATA 	Keypress: equal
+659.0014 	DATA 	Keypress: equal
+659.0133 	EXP 	vid1a: autoDraw = False
+659.0133 	EXP 	vid1b: autoDraw = False
+659.0133 	EXP 	vid2: autoDraw = False
+659.0133 	EXP 	vid3: autoDraw = False
+659.0133 	EXP 	vid4: autoDraw = False
+659.0133 	EXP 	vid5: autoDraw = False
+659.0133 	EXP 	vid1a_q: movie = 'stims/wedding-16.1a.mp4'
+659.0133 	EXP 	vid1a_q: autoLog = True
+659.0133 	EXP 	vid1b_q: movie = 'stims/wedding-16.1b.mp4'
+659.0133 	EXP 	vid1b_q: autoLog = True
+659.0133 	EXP 	vid2_q: movie = 'stims/wedding-16.2b.mp4'
+659.0133 	EXP 	vid2_q: autoLog = True
+659.0133 	EXP 	vid3_q: movie = 'stims/wedding-16.3b.mp4'
+659.0133 	EXP 	vid3_q: autoLog = True
+659.0133 	EXP 	vid4_q: movie = 'stims/wedding-16.4b.mp4'
+659.0133 	EXP 	vid4_q: autoLog = True
+659.0133 	EXP 	vid5_q: movie = 'stims/wedding-16.5.mp4'
+659.0133 	EXP 	vid5_q: autoLog = True
+659.0133 	EXP 	vid1a_q: autoDraw = False
+659.0133 	EXP 	vid1b_q: autoDraw = False
+659.0133 	EXP 	vid2_q: autoDraw = False
+659.0133 	EXP 	l2q: autoDraw = False
+659.0133 	EXP 	vid3_q: autoDraw = False
+659.0133 	EXP 	l3q: autoDraw = False
+659.0133 	EXP 	vid4_q: autoDraw = False
+659.0133 	EXP 	vid5_q: autoDraw = False
+659.1946 	EXP 	window1: recordFrameIntervals = False
+660.7826 	DATA 	Keypress: equal
+661.0146 	EXP 	eggPainting1: image = 'stimsday1details/painting16.png'
+661.0146 	EXP 	eggPainting2: image = 'stimsday1details/newpainting6.png'
+661.0146 	EXP 	character1: image = 'stimsday1details/newperson18.png'
+661.0146 	EXP 	character2: image = 'stimsday1details/couple16.png'
+661.0146 	EXP 	gift1: image = 'stimsday1details/gift16.png'
+661.0146 	EXP 	gift2: image = 'stimsday1details/new18.png'
+661.0146 	EXP 	themeQ1: image = 'stimsday1details/ct16.png'
+661.0146 	EXP 	themeQ2: image = 'stimsday1details/t16.png'
+661.0146 	EXP 	nameQ1: image = 'stimsday1details/n16.png'
+661.0146 	EXP 	nameQ2: image = 'stimsday1details/cn16.png'
+661.0146 	EXP 	nameQ1: autoDraw = True
+661.0146 	EXP 	nameQ2: autoDraw = True
+661.3453 	DATA 	Keypress: equal
+662.0279 	DATA 	Keypress: 1
+662.8451 	DATA 	Keypress: equal
+662.9931 	EXP 	nameQ1: autoDraw = False
+662.9931 	EXP 	nameQ2: autoDraw = False
+662.9931 	EXP 	nameQ1: autoDraw = False
+662.9931 	EXP 	nameQ2: autoDraw = False
+662.9931 	EXP 	eggPainting1: autoDraw = True
+662.9931 	EXP 	eggPainting2: autoDraw = True
+663.5784 	DATA 	Keypress: 1
+664.3449 	DATA 	Keypress: equal
+664.9931 	EXP 	eggPainting1: autoDraw = False
+664.9931 	EXP 	eggPainting2: autoDraw = False
+664.9931 	EXP 	eggPainting1: autoDraw = False
+664.9931 	EXP 	eggPainting2: autoDraw = False
+664.9931 	EXP 	character1: autoDraw = True
+664.9931 	EXP 	character2: autoDraw = True
+665.8447 	DATA 	Keypress: equal
+666.0946 	DATA 	Keypress: 1
+666.3945 	DATA 	Keypress: 2
+666.9930 	EXP 	character1: autoDraw = False
+666.9930 	EXP 	character2: autoDraw = False
+666.9930 	EXP 	character1: autoDraw = False
+666.9930 	EXP 	character2: autoDraw = False
+666.9930 	EXP 	themeQ1: autoDraw = True
+666.9930 	EXP 	themeQ2: autoDraw = True
+667.3445 	DATA 	Keypress: equal
+667.8280 	DATA 	Keypress: 2
+668.8446 	DATA 	Keypress: equal
+668.9930 	EXP 	themeQ1: autoDraw = False
+668.9930 	EXP 	themeQ2: autoDraw = False
+668.9930 	EXP 	themeQ1: autoDraw = False
+668.9930 	EXP 	themeQ2: autoDraw = False
+668.9930 	EXP 	gift1: autoDraw = True
+668.9930 	EXP 	gift2: autoDraw = True
+669.6780 	DATA 	Keypress: 1
+670.3446 	DATA 	Keypress: equal
+670.9929 	EXP 	gift1: autoDraw = False
+670.9929 	EXP 	gift2: autoDraw = False
+670.9929 	EXP 	gift1: autoDraw = False
+670.9929 	EXP 	gift2: autoDraw = False
+670.9929 	EXP 	northorsouth1: autoDraw = True
+670.9929 	EXP 	northorsouth2: autoDraw = True
+671.6280 	DATA 	Keypress: 1
+671.8444 	DATA 	Keypress: equal
+673.2732 	EXP 	New trial (rep=0, index=5): OrderedDict([('condsFile', 'videoBlock_schemaN_pathB_5.csv')])
+673.2859 	EXP 	Imported videoBlock_schemaN_pathB_5.csv as conditions, 1 conditions, 17 params
+673.2864 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+673.2871 	EXP 	New trial (rep=0, index=0): OrderedDict([('northOrSouth', 'north.png'), ('stimFile1a', 'stims/wedding-18.1a.mp4'), ('stimFile1b', 'stims/wedding-18.1b.mp4'), ('stimFile2', 'stims/wedding-18.2b.mp4'), ('stimFile3', 'stims/wedding-18.3b.mp4'), ('stimFile4', 'stims/wedding-18.4b.mp4'), ('stimFile5', 'stims/wedding-18.5.mp4'), ('QeggPainting1', 'stimsday1details/newpainting5.png'), ('Qcharacter1', 'stimsday1details/couple18.png'), ('Qgift1', 'stimsday1details/new17.png'), ('QeggPainting2', 'stimsday1details/painting18.png'), ('Qcharacter2', 'stimsday1details/newperson17.png'), ('Qgift2', 'stimsday1details/gift18.png'), ('Qname1', 'stimsday1details/cn18.png'), ('Qtheme1', 'stimsday1details/t18.png'), ('Qname2', 'stimsday1details/n18.png'), ('Qtheme2', 'stimsday1details/ct18.png')])
+673.2929 	EXP 	northorsouth1: autoDraw = False
+673.2929 	EXP 	northorsouth2: autoDraw = False
+673.2929 	EXP 	northorsouth1: autoDraw = False
+673.2929 	EXP 	northorsouth2: autoDraw = False
+673.2929 	EXP 	image_3: autoDraw = True
+673.3448 	DATA 	Keypress: equal
+674.8446 	DATA 	Keypress: equal
+675.2775 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+675.2778 	EXP 	New trial (rep=0, index=0): None
+675.7272 	EXP 	Created vid1a = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-18.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+676.1249 	EXP 	Created vid1b = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-18.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+676.6133 	EXP 	Created vid2 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-18.2b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+677.1996 	EXP 	Created vid3 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='stims/wedding-18.3b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+677.7844 	EXP 	Created vid4 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-18.4b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+678.2184 	EXP 	Created vid5 = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-6.0, filename='stims/wedding-18.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+678.6897 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+678.6900 	EXP 	New trial (rep=0, index=0): None
+679.1151 	EXP 	Created vid1a_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='stims/wedding-18.1a.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1a_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+679.4897 	EXP 	Created vid1b_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-2.0, filename='stims/wedding-18.1b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid1b_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+679.9372 	EXP 	Created vid2_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-3.0, filename='stims/wedding-18.2b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid2_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+680.4539 	EXP 	Created vid3_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='stims/wedding-18.3b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid3_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+680.9736 	EXP 	Created vid4_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-7.0, filename='stims/wedding-18.4b.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid4_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+681.3757 	EXP 	Created vid5_q = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-8.0, filename='stims/wedding-18.5.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=False, name='vid5_q', noAudio=False, opacity=1.0, ori=0, pos=array([0., 0.]), size=array([1280.,  720.]), units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+681.4942 	EXP 	window1: recordFrameIntervals = False
+681.4980 	DATA 	Keypress: equal
+681.5006 	DATA 	Keypress: equal
+681.5027 	DATA 	Keypress: equal
+681.5048 	DATA 	Keypress: equal
+681.5097 	EXP 	image_3: autoDraw = False
+681.5097 	EXP 	image_3: autoDraw = False
+681.5097 	EXP 	vid1a: movie = 'stims/wedding-18.1a.mp4'
+681.5097 	EXP 	vid1a: autoLog = True
+681.5097 	EXP 	vid1b: movie = 'stims/wedding-18.1b.mp4'
+681.5097 	EXP 	vid1b: autoLog = True
+681.5097 	EXP 	vid2: movie = 'stims/wedding-18.2b.mp4'
+681.5097 	EXP 	vid2: autoLog = True
+681.5097 	EXP 	vid3: movie = 'stims/wedding-18.3b.mp4'
+681.5097 	EXP 	vid3: autoLog = True
+681.5097 	EXP 	vid4: movie = 'stims/wedding-18.4b.mp4'
+681.5097 	EXP 	vid4: autoLog = True
+681.5097 	EXP 	vid5: movie = 'stims/wedding-18.5.mp4'
+681.5097 	EXP 	vid5: autoLog = True
+681.5097 	EXP 	vid1a: autoDraw = False
+681.5097 	EXP 	vid1b: autoDraw = False
+681.5097 	EXP 	vid2: autoDraw = False
+681.5097 	EXP 	vid3: autoDraw = False
+681.5097 	EXP 	vid4: autoDraw = False
+681.5097 	EXP 	vid5: autoDraw = False
+681.5097 	EXP 	vid1a_q: movie = 'stims/wedding-18.1a.mp4'
+681.5097 	EXP 	vid1a_q: autoLog = True
+681.5097 	EXP 	vid1b_q: movie = 'stims/wedding-18.1b.mp4'
+681.5097 	EXP 	vid1b_q: autoLog = True
+681.5097 	EXP 	vid2_q: movie = 'stims/wedding-18.2b.mp4'
+681.5097 	EXP 	vid2_q: autoLog = True
+681.5097 	EXP 	vid3_q: movie = 'stims/wedding-18.3b.mp4'
+681.5097 	EXP 	vid3_q: autoLog = True
+681.5097 	EXP 	vid4_q: movie = 'stims/wedding-18.4b.mp4'
+681.5097 	EXP 	vid4_q: autoLog = True
+681.5097 	EXP 	vid5_q: movie = 'stims/wedding-18.5.mp4'
+681.5097 	EXP 	vid5_q: autoLog = True
+684.2268 	EXP 	window1: recordFrameIntervals = False
+686.2827 	DATA 	Keypress: equal
+686.2852 	DATA 	Keypress: equal
+686.2872 	DATA 	Keypress: equal
+686.4928 	EXP 	vid1a_q: movie = 'stims/wedding-18.1a.mp4'
+686.4928 	EXP 	vid1b_q: movie = 'stims/wedding-18.1b.mp4'
+686.4928 	EXP 	vid2_q: movie = 'stims/wedding-18.2b.mp4'
+686.4928 	EXP 	vid3_q: movie = 'stims/wedding-18.3b.mp4'
+686.4928 	EXP 	vid4_q: movie = 'stims/wedding-18.4b.mp4'
+686.4928 	EXP 	vid5_q: movie = 'stims/wedding-18.5.mp4'
+686.5108 	EXP 	vid1a_q: autoDraw = True
+686.8451 	DATA 	Keypress: equal
+688.3449 	DATA 	Keypress: equal
+689.8450 	DATA 	Keypress: equal
+691.3446 	DATA 	Keypress: equal
+692.8447 	DATA 	Keypress: equal
+694.3445 	DATA 	Keypress: equal
+695.8447 	DATA 	Keypress: equal
+697.3446 	DATA 	Keypress: equal
+698.8447 	DATA 	Keypress: equal
+700.3449 	DATA 	Keypress: equal
+701.8446 	DATA 	Keypress: equal
+702.7093 	EXP 	vid1a_q: autoDraw = False
+702.7093 	EXP 	vid1b_q: autoDraw = True
+703.3447 	DATA 	Keypress: equal
+704.8713 	DATA 	Keypress: equal
+706.3447 	DATA 	Keypress: equal
+707.8443 	DATA 	Keypress: equal
+709.3447 	DATA 	Keypress: equal
+710.8445 	DATA 	Keypress: equal
+711.3925 	EXP 	Set vid1b_q finished
+711.7091 	EXP 	vid2_q: autoDraw = True
+712.3444 	DATA 	Keypress: equal
+713.8442 	DATA 	Keypress: equal
+715.3443 	DATA 	Keypress: equal
+716.8443 	DATA 	Keypress: equal
+718.3444 	DATA 	Keypress: equal
+719.8443 	DATA 	Keypress: equal
+721.3445 	DATA 	Keypress: equal
+722.8444 	DATA 	Keypress: equal
+724.3443 	DATA 	Keypress: equal
+725.8442 	DATA 	Keypress: equal
+727.3446 	DATA 	Keypress: equal
+728.3256 	EXP 	Set vid2_q finished
+728.7089 	EXP 	l2q: autoDraw = True
+728.8441 	DATA 	Keypress: equal
+730.3439 	DATA 	Keypress: equal
+730.4272 	DATA 	Keypress: 2
+731.2437 	DATA 	Keypress: 1
+731.8437 	DATA 	Keypress: equal
+732.7089 	EXP 	l2q: autoDraw = False
+732.7089 	EXP 	vid3_q: autoDraw = True
+733.1774 	DATA 	Keypress: 2
+733.3443 	DATA 	Keypress: equal
+734.8441 	DATA 	Keypress: equal
+736.3443 	DATA 	Keypress: equal
+737.8440 	DATA 	Keypress: equal
+739.3443 	DATA 	Keypress: equal
+740.8440 	DATA 	Keypress: equal
+742.3442 	DATA 	Keypress: equal
+743.8444 	DATA 	Keypress: equal
+745.3441 	DATA 	Keypress: equal
+746.8443 	DATA 	Keypress: equal
+748.3439 	DATA 	Keypress: equal
+749.8442 	DATA 	Keypress: equal
+751.3440 	DATA 	Keypress: equal
+752.8720 	DATA 	Keypress: equal
+754.3440 	DATA 	Keypress: equal
+755.7086 	EXP 	vid3_q: autoDraw = False
+755.7086 	EXP 	l3q: autoDraw = True
+755.8439 	DATA 	Keypress: equal
+757.3438 	DATA 	Keypress: equal
+757.5099 	DATA 	Keypress: 2
+758.8435 	DATA 	Keypress: equal
+759.7085 	EXP 	l3q: autoDraw = False
+759.7085 	EXP 	vid4_q: autoDraw = True
+760.3438 	DATA 	Keypress: equal
+761.8439 	DATA 	Keypress: equal
+763.3437 	DATA 	Keypress: equal
+764.8437 	DATA 	Keypress: equal
+766.3437 	DATA 	Keypress: equal
+767.8441 	DATA 	Keypress: equal
+769.3715 	DATA 	Keypress: equal
+770.8437 	DATA 	Keypress: equal
+772.3439 	DATA 	Keypress: equal
+773.8438 	DATA 	Keypress: equal
+775.3438 	DATA 	Keypress: equal
+776.8440 	DATA 	Keypress: equal
+778.3435 	DATA 	Keypress: equal
+779.8442 	DATA 	Keypress: equal
+781.3435 	DATA 	Keypress: equal
+782.8435 	DATA 	Keypress: equal
+783.7082 	EXP 	vid4_q: autoDraw = False
+783.7082 	EXP 	vid5_q: autoDraw = True
+784.3438 	DATA 	Keypress: equal
+785.8434 	DATA 	Keypress: equal
+787.3434 	DATA 	Keypress: equal
+788.8437 	DATA 	Keypress: equal
+790.3436 	DATA 	Keypress: equal
+791.8435 	DATA 	Keypress: equal
+793.3434 	DATA 	Keypress: equal
+794.8437 	DATA 	Keypress: equal
+796.3434 	DATA 	Keypress: equal
+796.9850 	EXP 	window1: recordFrameIntervals = False
+796.9914 	EXP 	vid5_q: autoDraw = False
+796.9914 	EXP 	vid1a_q: autoDraw = False
+796.9914 	EXP 	vid1b_q: autoDraw = False
+796.9914 	EXP 	vid2_q: autoDraw = False
+796.9914 	EXP 	l2q: autoDraw = False
+796.9914 	EXP 	vid3_q: autoDraw = False
+796.9914 	EXP 	l3q: autoDraw = False
+796.9914 	EXP 	vid4_q: autoDraw = False
+796.9914 	EXP 	vid5_q: autoDraw = False
+797.2068 	EXP 	window1: recordFrameIntervals = False
+798.7705 	DATA 	Keypress: equal
+798.9914 	EXP 	eggPainting1: image = 'stimsday1details/newpainting5.png'
+798.9914 	EXP 	eggPainting2: image = 'stimsday1details/painting18.png'
+798.9914 	EXP 	character1: image = 'stimsday1details/couple18.png'
+798.9914 	EXP 	character2: image = 'stimsday1details/newperson17.png'
+798.9914 	EXP 	gift1: image = 'stimsday1details/new17.png'
+798.9914 	EXP 	gift2: image = 'stimsday1details/gift18.png'
+798.9914 	EXP 	themeQ1: image = 'stimsday1details/t18.png'
+798.9914 	EXP 	themeQ2: image = 'stimsday1details/ct18.png'
+798.9914 	EXP 	nameQ1: image = 'stimsday1details/cn18.png'
+798.9914 	EXP 	nameQ2: image = 'stimsday1details/n18.png'
+798.9914 	EXP 	nameQ1: autoDraw = True
+798.9914 	EXP 	nameQ2: autoDraw = True
+799.3434 	DATA 	Keypress: equal
+800.4096 	DATA 	Keypress: 2
+800.8428 	DATA 	Keypress: equal
+800.9747 	EXP 	nameQ1: autoDraw = False
+800.9747 	EXP 	nameQ2: autoDraw = False
+800.9747 	EXP 	nameQ1: autoDraw = False
+800.9747 	EXP 	nameQ2: autoDraw = False
+800.9747 	EXP 	eggPainting1: autoDraw = True
+800.9747 	EXP 	eggPainting2: autoDraw = True
+801.6594 	DATA 	Keypress: 2
+802.3433 	DATA 	Keypress: equal
+802.9747 	EXP 	eggPainting1: autoDraw = False
+802.9747 	EXP 	eggPainting2: autoDraw = False
+802.9747 	EXP 	eggPainting1: autoDraw = False
+802.9747 	EXP 	eggPainting2: autoDraw = False
+802.9747 	EXP 	character1: autoDraw = True
+802.9747 	EXP 	character2: autoDraw = True
+803.6426 	DATA 	Keypress: 1
+803.8427 	DATA 	Keypress: equal
+804.9746 	EXP 	character1: autoDraw = False
+804.9746 	EXP 	character2: autoDraw = False
+804.9746 	EXP 	character1: autoDraw = False
+804.9746 	EXP 	character2: autoDraw = False
+804.9746 	EXP 	themeQ1: autoDraw = True
+804.9746 	EXP 	themeQ2: autoDraw = True
+805.3430 	DATA 	Keypress: equal
+806.2593 	DATA 	Keypress: 1
+806.8428 	DATA 	Keypress: equal
+806.9746 	EXP 	themeQ1: autoDraw = False
+806.9746 	EXP 	themeQ2: autoDraw = False
+806.9746 	EXP 	themeQ1: autoDraw = False
+806.9746 	EXP 	themeQ2: autoDraw = False
+806.9746 	EXP 	gift1: autoDraw = True
+806.9746 	EXP 	gift2: autoDraw = True
+807.6594 	DATA 	Keypress: 2
+808.3429 	DATA 	Keypress: equal
+808.9746 	EXP 	gift1: autoDraw = False
+808.9746 	EXP 	gift2: autoDraw = False
+808.9746 	EXP 	gift1: autoDraw = False
+808.9746 	EXP 	gift2: autoDraw = False
+808.9746 	EXP 	northorsouth1: autoDraw = True
+808.9746 	EXP 	northorsouth2: autoDraw = True
+809.8427 	DATA 	Keypress: 1
+809.8446 	DATA 	Keypress: equal
+811.2912 	EXP 	northorsouth1: autoDraw = False
+811.2912 	EXP 	northorsouth2: autoDraw = False
+811.2912 	EXP 	northorsouth1: autoDraw = False
+811.2912 	EXP 	northorsouth2: autoDraw = False
+811.5998 	EXP 	window1: mouseVisible = True
