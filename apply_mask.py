@@ -10,6 +10,32 @@ from nilearn import image, plotting, input_data
 
 from utils import *
 
+
+ALL_SUB_NS = [
+  3,4,5,6,7,8,9,10,
+  12,13,14,15,17,18,19,
+  22,23,24,25,26,27,28,29,
+  30,31,32,33,34,35,36,38,
+  40,41,42,43,44
+  ]
+
+ROI_NAME_L = [
+  'rglasser_AT_net',
+  'rglasser_MP_net',
+  'rglasser_MTN_net',
+  'rglasser_PM_net',
+  'rhippocampusAAL',
+  # 'rsherlockAvg_fc_thr5_mpfc',
+  # 'rsherlockAvg_fc_thr5_pmc',
+  # 'rsherlockAvg_fc_thr5_lTPJ',
+  # 'rsherlockAvg_fc_thr5_rTPJ',
+  # 'rsherlockAvg_fc_thr5_lSFG',
+  # 'rsherlockAvg_fc_thr5_rSFG',
+  # 'rhippocampusL_AAL',
+  # 'rhippocampusR_AAL'  
+  ]
+
+
 for sub_n in SUB_NS:
   print('subj%i'%sub_n)
   # load subj
