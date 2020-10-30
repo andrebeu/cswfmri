@@ -75,26 +75,28 @@ for sub_num in range(45):
   ## train data
   try:
     Xact_train_L,ytarget_train_L,stimstr_L = get_data(sub_num,roi_name,'videos')
+  
+    ytarget_train = np.concatenate(ytarget_train_L)
+    Xact_train = np.concatenate(Xact_train_L)
+    ## test data
+    Xact_test_L,ytarget_test_L,stimstr_L = get_data(sub_num,roi_name,'recall2')
+    ## normalize
+    scaler = StandardScaler()
+    Xact_train = scaler.fit_transform(Xact_train)
+    Xact_test_L = [scaler.transform(Xact) for Xact in Xact_test_L]
+    ## fit classifier
+    clf = sklearn.linear_model.LogisticRegression(solver='liblinear',C=clf_c)
+    clf.fit(Xact_train,ytarget_train)
+    ## EVAL LOOP: loop over 12 weddings for eval
+    for idx_test in range(12):
+      stimstr = stimstr_L[idx_test]
+      # eval data for given wedding
+      Xact_test_wed = Xact_test_L[idx_test]
+      ytarget_test_wed = np.unique(ytarget_test_L[idx_test])
+      # fit classifier
+      yhat_wed = clf.predict_proba(Xact_test_wed)[:,ytarget_test_wed]
+      np.save('deriv/analyses/NvS_train_view_test_recall/sub_%i-%s'%(sub_num,stimstr),yhat_wed)
   except:
+    print('err','sub',sub_num)
     continue
-  ytarget_train = np.concatenate(ytarget_train_L)
-  Xact_train = np.concatenate(Xact_train_L)
-  ## test data
-  Xact_test_L,ytarget_test_L,stimstr_L = get_data(sub_num,roi_name,'recall2')
-  ## normalize
-  scaler = StandardScaler()
-  Xact_train = scaler.fit_transform(Xact_train)
-  Xact_test_L = [scaler.transform(Xact) for Xact in Xact_test_L]
-  ## fit classifier
-  clf = sklearn.linear_model.LogisticRegression(solver='liblinear',C=clf_c)
-  clf.fit(Xact_train,ytarget_train)
-  ## EVAL LOOP: loop over 12 weddings for eval
-  for idx_test in range(12):
-    stimstr = stimstr_L[idx_test]
-    # eval data for given wedding
-    Xact_test_wed = Xact_test_L[idx_test]
-    ytarget_test_wed = np.unique(ytarget_test_L[idx_test])
-    # fit classifier
-    yhat_wed = clf.predict_proba(Xact_test_wed)[:,ytarget_test_wed]
-    np.save('deriv/analyses/NvS_train_view_test_recall/sub_%i-%s'%(sub_num,stimstr),yhat_wed)
 
