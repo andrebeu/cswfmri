@@ -70,7 +70,7 @@ def get_data(sub_num,roi_name,task):
 roi_name= 'rglasser_PM_net'
 clf_c = 1.00
 
-for sub_num in range(30,39):
+for sub_num in range(45):
   print('sub',sub_num)
   ## train data
   try:
