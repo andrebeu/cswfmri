@@ -18,6 +18,7 @@ from scipy.spatial import distance
 from sklearn.preprocessing import StandardScaler
 
 from sklearn.linear_model import LogisticRegression
+pd.options.display.max_rows = 200
 
 
 # ### recall legend
@@ -169,7 +170,6 @@ for sub_num,layer_num in itertools.product(np.arange(45),range(2,5)):
     assert len(sub_roi_recall)
   except:
     print('err loading sub',sub_num)
-    continue
   ## build train/test datasets
   # train
   train_TRs,Ytrain = get_training_info(sub_num,layer_num)
