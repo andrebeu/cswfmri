@@ -48,9 +48,20 @@ recall_df = pd.read_csv('deriv/recall_df.csv',index_col=0)
 # recall_df
 
 
+# In[5]:
+
+
+for sub_num in range(45):
+  print('\nS',sub_num)
+  try:
+    print(recall_df[recall_df.sub_num==sub_num].iloc[-1].offsetTR)
+  except:
+    continue
+
+
 # # load dataframes with timing and order information
 
-# In[5]:
+# In[6]:
 
 
 def load_sub_roi(sub_num,roi_name,task):
@@ -64,7 +75,7 @@ def load_sub_roi(sub_num,roi_name,task):
 
 # ### classifier training 
 
-# In[6]:
+# In[7]:
 
 
 """ 
@@ -113,7 +124,7 @@ def get_training_info(sub_num,layer_num):
   return np.array(TR_L),np.array(ytarget_L)
 
 
-# In[7]:
+# In[8]:
 
 
 """ 
@@ -149,7 +160,7 @@ def get_test_info(sub_num,layer_num):
   return XTRs,np.array(ytarget)=='a'
 
 
-# In[11]:
+# In[9]:
 
 
 """ 
@@ -170,6 +181,8 @@ for sub_num,layer_num in itertools.product(np.arange(45),range(2,5)):
     assert len(sub_roi_recall)
   except:
     print('err loading sub',sub_num)
+    continue
+  print('X')
   ## build train/test datasets
   # train
   train_TRs,Ytrain = get_training_info(sub_num,layer_num)
@@ -181,6 +194,7 @@ for sub_num,layer_num in itertools.product(np.arange(45),range(2,5)):
   if not len(Xtest): 
     print('no recall data. sub',sub_num,'layer',layer_num)
     continue
+  print('XX')
   ## normalize
   scaler = StandardScaler()
   Xtrain = scaler.fit_transform(Xtrain)
@@ -200,7 +214,7 @@ for sub_num,layer_num in itertools.product(np.arange(45),range(2,5)):
   L.append(D)
 
 
-# In[9]:
+# In[10]:
 
 
 results = pd.DataFrame(L)
