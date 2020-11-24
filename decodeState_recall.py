@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
 
 import numpy as np
 import pandas as pd
@@ -13,7 +18,6 @@ from scipy.spatial import distance
 from sklearn.preprocessing import StandardScaler
 
 from sklearn.linear_model import LogisticRegression
-
 
 
 # ### recall legend
@@ -144,7 +148,7 @@ def get_test_info(sub_num,layer_num):
   return XTRs,np.array(ytarget)=='a'
 
 
-# In[8]:
+# In[11]:
 
 
 """ 
@@ -172,7 +176,7 @@ for sub_num,layer_num in itertools.product(np.arange(45),range(2,5)):
   Xtrain = sub_roi_view[train_TRs,:]
   # test  
   test_TRs,Ytest = get_test_info(sub_num,layer_num)
-  Xtest = sub_roi_view[test_TRs,:]
+  Xtest = sub_roi_recall[test_TRs,:]
   # check if recall data exists
   if not len(Xtest): 
     print('no recall data. sub',sub_num,'layer',layer_num)
