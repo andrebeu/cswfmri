@@ -21,16 +21,13 @@ from sklearn.linear_model import LogisticRegression
 pd.options.display.max_rows = 200
 
 
-# ### recall legend
-# - 3,4: layer 2
-# - 5,6: layer 3
-# - 7,8: layer 4
+# # load dataframes with timing and order information
 
-# In[2]:
+# In[13]:
 
 
 view_df = pd.read_csv('deriv/view_df.csv',index_col=0)
-# view_df
+view_df
 
 
 # In[3]:
@@ -48,34 +45,11 @@ recall_df = pd.read_csv('deriv/recall_df.csv',index_col=0)
 # recall_df
 
 
-# In[5]:
-
-
-for sub_num in range(45):
-  print('\nS',sub_num)
-  try:
-    print(recall_df[recall_df.sub_num==sub_num].iloc[-1].offsetTR)
-  except:
-    continue
-
-
-# # load dataframes with timing and order information
-
-# In[6]:
-
-
-def load_sub_roi(sub_num,roi_name,task):
-  fpath = "sub-%i_task-%s_roi-%s.npy" %(sub_num,task,roi_name)
-  return np.load('data/fmri/masked/'+fpath)
-
-
-# # view-recall state classifier
-# - different decoder for each sub/layer
-# -- each sub has 3 decoders
+# # form training and testing datasets
 
 # ### classifier training 
 
-# In[7]:
+# In[5]:
 
 
 """ 
@@ -124,7 +98,7 @@ def get_training_info(sub_num,layer_num):
   return np.array(TR_L),np.array(ytarget_L)
 
 
-# In[8]:
+# In[6]:
 
 
 """ 
@@ -160,7 +134,17 @@ def get_test_info(sub_num,layer_num):
   return XTRs,np.array(ytarget)=='a'
 
 
-# In[9]:
+# # train-test loop
+
+# In[7]:
+
+
+def load_sub_roi(sub_num,roi_name,task):
+  fpath = "sub-%i_task-%s_roi-%s.npy" %(sub_num,task,roi_name)
+  return np.load('data/fmri/masked/'+fpath)
+
+
+# In[11]:
 
 
 """ 
@@ -213,10 +197,13 @@ for sub_num,layer_num in itertools.product(np.arange(45),range(2,5)):
   D['score']=score
   L.append(D)
 
-
-# In[10]:
-
-
+## 
 results = pd.DataFrame(L)
-results.to_csv('data/analyses/decodeState_trainView_testRecall.csv')
+
+
+# In[12]:
+
+
+Nsubs = len(results.sub_num.unique())
+results.to_csv('data/analyses/decodeState_trainView_testRecall-N%i.csv'%Nsubs)
 
