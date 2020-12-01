@@ -124,7 +124,7 @@ ROI_NAME_L = [
 roi_name= 'rglasser_PM_net'
 
 
-# In[ ]:
+# In[9]:
 
 
 """ 
@@ -133,7 +133,7 @@ train and test classifier
 
 L = []
 for roi_name,sub_num,layer_num in itertools.product(ROI_NAME_L,np.arange(45),range(2,5)):
-  print('r',roi_name,'s',sub_num,'l',layer_num)
+  print('r',roi_name,'sub',sub_num,'layer',layer_num)
   # load fmri data; 
   try: # check that fmri files exist
     sub_roi_view = load_sub_roi(sub_num,roi_name,'videos')
@@ -144,11 +144,14 @@ for roi_name,sub_num,layer_num in itertools.product(ROI_NAME_L,np.arange(45),ran
     print('err loading roi data')
     continue
   ## build train/test datasets
-  # train
-  train_TRs,Ytrain = get_training_info(sub_num,layer_num)
-  Xtrain = sub_roi_view[train_TRs,:] 
-  test_TRs,Ytest = get_test_info(sub_num,layer_num)
-  Xtest = sub_roi_recall[test_TRs,:]
+  try:
+    train_TRs,Ytrain = get_training_info(sub_num,layer_num)
+    Xtrain = sub_roi_view[train_TRs,:] 
+    test_TRs,Ytest = get_test_info(sub_num,layer_num)
+    Xtest = sub_roi_recall[test_TRs,:]
+  except:
+    print('err finding info')
+    continue
   # check if recall data exists
   if not len(Xtest): 
     print('no recall data. sub',sub_num,'layer',layer_num)
@@ -175,7 +178,7 @@ for roi_name,sub_num,layer_num in itertools.product(ROI_NAME_L,np.arange(45),ran
 results = pd.DataFrame(L)
 
 
-# In[ ]:
+# In[10]:
 
 
 Nsubs = len(results.sub_num.unique())
