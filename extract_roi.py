@@ -44,15 +44,7 @@ ROI_NAME_L = [
   'rglasser_MP_net',
   'rglasser_MTN_net',
   'rglasser_PM_net',
-  'rhippocampusAAL',
-  # 'rsherlockAvg_fc_thr5_mpfc',
-  # 'rsherlockAvg_fc_thr5_pmc',
-  # 'rsherlockAvg_fc_thr5_lTPJ',
-  # 'rsherlockAvg_fc_thr5_rTPJ',
-  # 'rsherlockAvg_fc_thr5_lSFG',
-  # 'rsherlockAvg_fc_thr5_rSFG',
-  # 'rhippocampusL_AAL',
-  # 'rhippocampusR_AAL'  
+  'rhippocampusAAL', 
 ]
 
 
@@ -66,7 +58,7 @@ if debug:
   sub4d = load_sub4d(33,task=task,max_len=4000,numpy_output=False)
 
 
-# In[5]:
+# In[ ]:
 
 
 for sub_n in np.arange(45):
@@ -78,7 +70,11 @@ for sub_n in np.arange(45):
     for roi_name in ROI_NAME_L:
       print('subj%i'%sub_n,'roi=',roi_name)
       # load & threshold mask
-      roi_img = nl.image.load_img("data/fmri/rois/%s.nii"%roi_name)
+      try:
+        roi_img = nl.image.load_img("data/fmri/rois/%s.nii"%roi_name)
+      except:
+        print('roi not found',roi_name)
+        continue
       if roi_name=='SnPM_filtered_FDR':
         # functional ROI
         roi_img = nl.image.math_img('img>0',img=roi_img)
@@ -91,9 +87,13 @@ for sub_n in np.arange(45):
       plt.close('all')
       # init & apply mask
       nifti_masker = nl.input_data.NiftiMasker(mask_img=roi_img,high_pass=1/128,t_r=1.5)
-      sub4d_masked = nifti_masker.fit_transform(sub4d,
-                      confounds="data/fmri/selected_nuisance/sub-%i_ses-02_task-%s_confounds_selected.txt"%(
-                        100+sub_n,task[:6]))
+      try:
+        sub4d_masked = nifti_masker.fit_transform(sub4d,
+                        confounds="data/fmri/selected_nuisance/sub-%i_ses-02_task-%s_confounds_selected.txt"%(
+                          100+sub_n,task[:6]))
+      except:
+        print('err masking S',sub_n,roi_name)
+        continue
       # save
       save_fpath = "sub-%i_task-%s_roi-%s"%(sub_n,task,roi_name)
       np.save('data/fmri/masked/%s'%save_fpath,sub4d_masked)
