@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import numpy as np
@@ -23,14 +23,14 @@ pd.options.display.max_rows = 200
 
 # # load dataframes with timing and order information
 
-# In[2]:
+# In[ ]:
 
 
 view_df = pd.read_csv('deriv/view_df.csv',index_col=0)
 view_df.iloc[:200]
 
 
-# In[3]:
+# In[ ]:
 
 
 recall_df = pd.read_csv('deriv/recall_df.csv',index_col=0)
@@ -41,7 +41,7 @@ recall_df = pd.read_csv('deriv/recall_df.csv',index_col=0)
 
 # ### classifier training 
 
-# In[4]:
+# In[ ]:
 
 
 sub_num,layer_num = 33,3
@@ -59,7 +59,7 @@ def get_training_info(sub_num,layer_num):
   return np.array(TR_L),np.array(ytarget_L)
 
 
-# In[5]:
+# In[ ]:
 
 
 """ 
@@ -97,7 +97,7 @@ def get_test_info(sub_num,layer_num):
 
 # # train-test loop
 
-# In[6]:
+# In[ ]:
 
 
 def load_sub_roi(sub_num,roi_name,task):
@@ -105,7 +105,7 @@ def load_sub_roi(sub_num,roi_name,task):
   return np.load('data/fmri/masked/'+fpath)
 
 
-# In[7]:
+# In[ ]:
 
 
 ROI_NAME_L = [
@@ -118,13 +118,19 @@ ROI_NAME_L = [
 ]
 
 
-# In[8]:
+# In[ ]:
 
 
 roi_name= 'rglasser_PM_net'
 
 
-# In[9]:
+# In[ ]:
+
+
+ROI_NAME_L
+
+
+# In[ ]:
 
 
 """ 
@@ -146,11 +152,11 @@ for roi_name,sub_num,layer_num in itertools.product(ROI_NAME_L,np.arange(45),ran
   ## build train/test datasets
   try:
     train_TRs,Ytrain = get_training_info(sub_num,layer_num)
-    Xtrain = sub_roi_view[train_TRs,:] 
     test_TRs,Ytest = get_test_info(sub_num,layer_num)
+    Xtrain = sub_roi_view[train_TRs,:] 
     Xtest = sub_roi_recall[test_TRs,:]
   except:
-    print('err finding info')
+    print('err finding info to build classifier dataset')
     continue
   # check if recall data exists
   if not len(Xtest): 
@@ -168,17 +174,18 @@ for roi_name,sub_num,layer_num in itertools.product(ROI_NAME_L,np.arange(45),ran
   score = clf.score(Xtest,Ytest)
   # record data
   D = {}
-  D['num_test_samples']=len(Ytest)
   D['sub_num']=sub_num
+  D['roi']=roi_name
   D['layer']=layer_num
-  D['score']=score
+  D['num_test_samples']=len(Ytest)
+  D['score']=score  
   L.append(D)
 
 ## 
 results = pd.DataFrame(L)
 
 
-# In[10]:
+# In[ ]:
 
 
 Nsubs = len(results.sub_num.unique())
