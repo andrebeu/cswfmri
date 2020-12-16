@@ -6,7 +6,7 @@
 # - extract information from files in `recall_transcriptions` folder.
 #     - see `behav` notebook
 
-# In[ ]:
+# In[1]:
 
 
 import numpy as np
@@ -25,7 +25,7 @@ from sklearn.linear_model import LogisticRegression
 pd.options.display.max_rows = 200
 
 
-# In[ ]:
+# In[2]:
 
 
 save_dir = 'data/analyses/xval_NvSrecall/'
@@ -33,7 +33,7 @@ save_dir = 'data/analyses/xval_NvSrecall/'
 
 # # load dataframes with timing and order information
 
-# In[ ]:
+# In[3]:
 
 
 view_df = pd.read_csv('deriv/view_df.csv',index_col=0)
@@ -43,7 +43,7 @@ view_df.iloc[:200]
 
 # # roi
 
-# In[ ]:
+# In[4]:
 
 
 def load_sub_roi(sub_num,roi_name,task):
@@ -60,7 +60,7 @@ ROI_NAME_L = [
 ]
 
 
-# In[ ]:
+# In[5]:
 
 
 def load_sub_roi(sub_num,task,roi_name,filt,motion):
@@ -69,7 +69,7 @@ def load_sub_roi(sub_num,task,roi_name,filt,motion):
   return np.load('data/fmri/roi_act/'+fpath)
 
 
-# In[ ]:
+# In[6]:
 
 
 def get_train_info(sub_num):
@@ -115,10 +115,10 @@ def get_test_info(sub_num):
   return TR_L,ytarget_L
 
 
-# In[ ]:
+# In[7]:
 
 
-sub_nums = np.arange(45)
+sub_nums = np.arange(15,45)
 roi_names = ROI_NAME_L
 filt_L = [0,128,480]
 motion_L = [False,True]
@@ -133,6 +133,7 @@ for sub_num,roi_name,filt,motion in itertools.product(sub_nums,roi_names,filt_L,
   try:
     TR_L_train,ytarget_train = get_train_info(sub_num)
     TR_L_test,ytarget_test = get_test_info(sub_num)
+    assert len(ytarget_test)
   except:
     print('err finding TRs',sub_num,roi_name,filt,motion)
     continue
